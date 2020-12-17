@@ -1,4 +1,6 @@
 import random
+from Flor import Flor
+from Abeja import Abeja
 class Poblacion:
     def __init__(self):
         self.cantidadFlores = 5
@@ -19,7 +21,40 @@ class Poblacion:
         return tira1[:ran]+tira2[ran:], tira2[:ran]+tira1[ran:]
 
     def cruceFlor(self):
-        pass
+        porRemplazar = []
+        nuevasFlores = []
+        for flor in self.flores:
+            temp = flor.seleccionFlor(flor)
+            if len(temp) == 2:
+                porRemplazar.append(temp)
+            elif len(temp) == 3:
+                nuevasFlores.append(temp)
+            else:
+                print("Hay un error en los cruces de flores")
+        return nuevasFlores,porRemplazar
+
+    def creaAbeja(self,color,dira,dirb):
+        abeja = Abeja()
+        abeja.__init__(color,dira,dirb)
+        self.abejas.append(abeja)
+
+    def eliminaAbeja(self,color,dira,dirb):
+        for abeja in self.abejas:
+            if abeja.color == color and abeja.direccionA == dira and abeja.direccionB == dirb:
+                self.abejas.remove(abeja)
+                return 
+
+    def creaFlor(self,pos,polen):
+        flor = Flor()
+        flor.__init__(flor,pos,polen)
+        self.flores.append(flor)
+
+
+    def eliminaFlor(self,pos):
+        for flor in self.flores:
+            if flor.pos == pos:
+                self.flores.remove(flor)
+                return
 
     def mutacion(self, abeja):
         tira = abeja.getADN()
