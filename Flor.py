@@ -15,6 +15,7 @@ class Flor:
 
     def resetpolen(self):
         self.polenmezcla = []
+
     #Retorna una nueva flor a base del polen depositado por las abejas
     def seleccionFlor(self):
         self.seleccionada = True
