@@ -1,19 +1,28 @@
 import random
 import math
 import threading, time
+
+from PyQt5.QtGui import QPainter, QColor, QPen
+from PyQt5.QtGui import QBrush
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
 from Flor import Flor
 from Abeja import Abeja
 from Grafo import Grafo
 
 class Poblacion:
 
-    def __init__(self):
+    def __init__(self,ventana,ventanamain):
 
         # Gris - Rojo - Amarillo - Verde - Azul - Morado - Blanco - Aqua
         self.colorFlor = [(128, 128, 128), (255, 0, 0), (255, 255, 0), (0, 128, 0),
                      (0, 0, 255), (128, 0, 128), (255, 255, 255), (0, 255, 255)]
         self.direccion = ['Norte', 'Noreste', 'Este', 'Sureste', 'Sur', 'Suroeste', 'Oeste', 'Noroeste']
-
+        self.ventana = ventana
+        self.ventanamain = ventanamain
         self.cantidadFlores = 10
         self.cantidadAbejas = 8
         self.flores = []
@@ -28,8 +37,8 @@ class Poblacion:
         self.numAbejas = 0
 
     # Generaciones (Threads)
-    def generaciones(self):
-        while self.parada < 5:
+    def generaciones(self,gens,lb1,lb2):
+        while self.parada < gens:
             if self.countGeneracion == 1:
                 hilo = threading.Thread(name='Generacion %s' % self.parada,
                                         target=self.generacionInicial,
@@ -47,17 +56,29 @@ class Poblacion:
                 self.parada += 1
                 time.sleep(self.threadTime)
         self.TextFile()
+        dis = 0
+        flor = 0
+        for abeja in self.abejas:
+            dis = dis + abeja.distanciaTotal
+            flor = flor + abeja.floresEncontradas
+        lb1.setText(str(flor))
+        lb2.setText(str(dis))
 
 
     def generacionInicial(self, segundos):
+        qp = QPainter(self.ventana.pixmap())
         print("PRIMERA GENERACION")
         for i in range(self.cantidadFlores):
             ranX = random.randint(0,99)
             ranY = random.randint(0, 99)
             color = random.randint(0, 7)
             flor = Flor([ranX, ranY],self.colorFlor[color])
+            pen = QPen(QColor(self.colorFlor[color][0],self.colorFlor[color][1],self.colorFlor[color][2]))
+            qp.setPen(pen)
+            qp.drawPoint(ranX,ranY)
+            self.ventanamain.update()
             self.flores.append(flor)
-
+        self.ventanamain.update()
         self.grafoBusqueda()
 
         for i in range(self.cantidadAbejas):
@@ -79,6 +100,7 @@ class Poblacion:
             hilo.start()
 
     def generacion(self, segundos):
+        qp = QPainter(self.ventana.pixmap())
         print("Generación ", self.countGeneracion)
 
         self.floresGeneraciones.append(self.flores)
@@ -89,6 +111,10 @@ class Poblacion:
         for flor in self.flores:
             pos, polen = flor.seleccionFlor()
             newflor = Flor(pos, polen)
+            pen = QPen(QColor(polen[0], polen[1], polen[2]))
+            qp.setPen(pen)
+            qp.drawPoint(pos[0], pos[1])
+            self.ventanamain.update()
             auxFlores.append(newflor)
 
         # Nuevas Abejas
@@ -223,6 +249,7 @@ class Poblacion:
         return florIndex
 
     def busquedaAnchura(self, g, abeja):
+        qp = QPainter(self.ventana.pixmap())
         fIndex = self.florMasCercana(abeja.pos)
         campo = abeja.Radio(50,50) # (Origen), angulo, diametro
 
@@ -230,6 +257,10 @@ class Poblacion:
         cola = [fIndex]  # Vertice de inicio
 
         while cola:
+            pen = QPen(QColor(abeja.color[0], abeja.color[1], abeja.color[2]))
+            qp.setPen(pen)
+            qp.drawPoint(abeja.pos[0], abeja.pos[1])
+            self.ventanamain.update()
             actual = cola.pop(0)
 
             # Si el vertice actual no ha sido visitado o no esta en el radio
@@ -316,8 +347,7 @@ class Poblacion:
         f.close()
 
 
-p = Poblacion()
-p.generaciones()
+
 
 # def contar(self, segundos):
 #     contador = 0
