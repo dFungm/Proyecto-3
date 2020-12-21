@@ -55,14 +55,17 @@ class Poblacion:
                 self.countGeneracion += 1
                 self.parada += 1
                 time.sleep(self.threadTime)
+            dis = 0
+            flor = 0
+            for abeja in self.abejas:
+                dis = dis + abeja.distanciaTotal
+                flor = flor + abeja.floresEncontradas
+            print("Distancia total: ", dis)
+            print("Flores totales: ", flor)
+            lb1.setText(str(flor))
+            lb2.setText(str(dis))
+            self.ventanamain.update()
         self.TextFile()
-        dis = 0
-        flor = 0
-        for abeja in self.abejas:
-            dis = dis + abeja.distanciaTotal
-            flor = flor + abeja.floresEncontradas
-        lb1.setText(str(flor))
-        lb2.setText(str(dis))
 
 
     def generacionInicial(self, segundos):
