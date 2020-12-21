@@ -1,8 +1,14 @@
 class Abeja:
-    def __init__(self, id, color, direccion):
+    def __init__(self, id, color, direccion, angulo, diametro, tipoRecorrido, padres, generacion):
+        self.dir = ['Norte', 'Noreste', 'Este', 'Sureste', 'Sur', 'Suroeste', 'Oeste', 'Noroeste']
         self.id = id
         self.color = color
-        self.direccion = direccion
+        self.direccion = direccion #Posicion del String
+        self.angulo = angulo
+        self.diametro = diametro
+        self.tipoRecorrido = tipoRecorrido
+        self.padres = padres
+        self.generacion = generacion
         self.direccionFavorita = self.selectDir()
 
         self.pos = [50,50]
@@ -10,39 +16,59 @@ class Abeja:
         self.distanciaTotal = 0
         self.polenCarry = []
         self.puntaje = 100
-        self.generacion = 0
-        self.padres = []
 
-    def getADN(self): # Agregar paramentros color, direccion, angulo, distancia, searching type, acceptance
+    # Color = 8
+    # Direccion = 3
+    # Angulo =
+    # Direccion =
+    # Tipo =
+    def getADN(self): # Color, direccion, angulo, diametro, tipo de recorrido
         tira = ''
         for i in self.color:
             color = str(bin(i)[2:])
             tira += '0' * (8 - len(color)) + color
+
+        dir = str(bin(self.direccion)[2:])
+        tira += '0' * (3 - len(dir)) + dir
+
+        ang = str(bin(self.angulo)[2:])
+        tira += '0' * (6 - len(ang)) + ang
+
+        dm = str(bin(self.diametro)[2:])
+        tira += '0' * (6 - len(dm)) + dm
+
+        tipo = str(bin(self.tipoRecorrido)[2:])
+        tira += '0' * (3 - len(tipo)) + tipo
+
         return tira
+
 
     # Dado una direccion ejemplo Norte Este retorna las cordenadas hacia donde se debe mover,
     # como ejemplo en este caso [1,1] ya que se mueve para arriba en Y y para el
     # lado derecho en X, SOLO SE EJECTUA CUANDO SE CREA UNA ABEJA, luego de eso no se
     # deberia de llamar, para eliminar strains en performance
     def selectDir(self):
-        if self.direccion == 'Norte':
+        print("direccion", self.direccion)
+        if self.dir[self.direccion] == 'Norte':
             return [0,1]
-        elif self.direccion == 'Noreste':
+        elif self.dir[self.direccion] == 'Noreste':
             return [1,1]
-        elif self.direccion == 'Este':
+        elif self.dir[self.direccion] == 'Este':
             return [1,0]
-        elif self.direccion == 'Sureste':
+        elif self.dir[self.direccion] == 'Sureste':
             return [1,-1]
-        elif self.direccion == 'Sur':
+        elif self.dir[self.direccion] == 'Sur':
             return [0,-1]
-        elif self.direccion == 'Suroeste':
+        elif self.dir[self.direccion] == 'Suroeste':
             return [-1,-1]
-        elif self.direccion == 'Oeste':
+        elif self.dir[self.direccion] == 'Oeste':
             return [-1, 0]
-        elif self.direccion == 'Noroeste':
+        elif self.dir[self.direccion] == 'Noroeste':
             return [-1,1]
 
-    def Radio(self,puntoOrigenX,puntoOrigenY,Adv,Dm):
+    def Radio(self,puntoOrigenX,puntoOrigenY):
+        Adv = self.angulo
+        Dm = self.diametro
         busquedaValida = []
         while(Dm != 0):
             busquedaValida.append([puntoOrigenX,puntoOrigenY])

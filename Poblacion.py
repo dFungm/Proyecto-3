@@ -15,12 +15,11 @@ class Poblacion:
         self.direccion = ['Norte', 'Noreste', 'Este', 'Sureste', 'Sur', 'Suroeste', 'Oeste', 'Noroeste']
 
         self.cantidadFlores = 10
-        self.cantidadAbejas = 5
+        self.cantidadAbejas = 8
         self.flores = []
         self.abejas = []
         self.countGeneracion = 1
-        self.threadTime = 0.5
-        # self.threadsGeneraciones = []
+        self.threadTime = 1
         self.parada = 0
         self.grafoFlores = None
         self.floresGeneraciones = []
@@ -47,6 +46,8 @@ class Poblacion:
                 self.countGeneracion += 1
                 self.parada += 1
                 time.sleep(self.threadTime)
+        self.TextFile()
+
 
     def generacionInicial(self, segundos):
         print("PRIMERA GENERACION")
@@ -63,57 +64,69 @@ class Poblacion:
             self.numAbejas += 1
             color = random.randint(0, 7)
             direccion = random.randint(0, 7)
-            abeja = Abeja(self.numAbejas, self.colorFlor[color],self.direccion[direccion])
+            angulo = random.randint(10, 50)
+            diametro = random.randint(10, 50)
+            recorrido = random.randint(0, 4)
+            abeja = Abeja(self.numAbejas, self.colorFlor[color], direccion, angulo,
+                          diametro, recorrido, [], self.countGeneracion)
             self.abejas.append(abeja)
 
         for abeja in self.abejas:
-            hilo = threading.Thread(name='Abeja %s' % 1,
+            time.sleep(self.threadTime//len(self.abejas))
+            hilo = threading.Thread(name='Abeja %s' % abeja.id,
                                     target=self.busquedaAnchura,
                                     args=(self.grafoFlores, abeja,))
             hilo.start()
 
     def generacion(self, segundos):
-        self.floresGeneraciones.append(self.flores)
-        self.abejasGeneraciones.append(self.abejas)
-        self.abejas = []
-        self.flores = []
         print("Generación ", self.countGeneracion)
 
-        '''
-        .......
-        '''
+        self.floresGeneraciones.append(self.flores)
+        self.abejasGeneraciones.append(self.abejas)
 
-    # Abejas | Flores
-    def creaAbeja(self, id, color, dir):
-        abeja = Abeja()
-        abeja.__init__(id, color,dir)
-        self.abejas.append(abeja)
-
-    def eliminaAbeja(self,color,dira,dirb):
-        for abeja in self.abejas:
-            if abeja.color == color and abeja.direccionA == dira and abeja.direccionB == dirb:
-                self.abejas.remove(abeja)
-                return 
-
-    def creaFlor(self,pos,polen):
-        flor = Flor()
-        flor.__init__(flor,pos,polen)
-        self.flores.append(flor)
-
-    def eliminaFlor(self,pos):
+        # Nuevas flores
+        auxFlores = []
         for flor in self.flores:
-            if flor.pos == pos:
-                self.flores.remove(flor)
-                return
+            pos, polen = flor.seleccionFlor()
+            newflor = Flor(pos, polen)
+            auxFlores.append(newflor)
 
+        # Nuevas Abejas
+        for abeja in self.abejas:
+            abeja.SeleccionAbeja()
+
+        # Abejas ordenadas por puntuacion
+        sortedAbejas = sorted(self.abejas, key=lambda x: x.puntaje, reverse=True)
+
+        # Algoritmo Genetico
+        auxAbejas = []
+        for i in range(0, len(self.abejas)-1, 2):
+            a1, a2 = self.cruceAbeja(self.abejas[i], self.abejas[i+1])
+            auxAbejas.append(a1)
+            auxAbejas.append(a2)
+
+        self.flores = auxFlores
+        self.abejas = auxAbejas
+
+        for abeja in self.abejas:
+            time.sleep(self.threadTime//len(self.abejas))
+            hilo = threading.Thread(name='Abeja %s' % abeja.id,
+                                    target=self.busquedaAnchura,
+                                    args=(self.grafoFlores, abeja,))
+            hilo.start()
 
     # Algoritmo Genético
     def cruceAbeja(self, a1, a2):
-        tira1 = a1.getADN()
-        tira2 = a2.getADN()
-        ran = random.randint(0,len(tira1))
+        ADN1 = a1.getADN()
+        ADN2 = a2.getADN()
+        ran = random.randint(0, len(ADN1) - 1)
 
-        return tira1[:ran]+tira2[ran:], tira2[:ran]+tira1[ran:]
+        AUX1 = ADN1[:ran] + ADN2[ran:]
+        AUX2 = ADN2[:ran] + ADN1[ran:]
+
+        abeja1 = self.creaAbeja(AUX1, [a1.id, a2.id])
+        abeja2 = self.creaAbeja(AUX2, [a1.id, a2.id])
+        return abeja1, abeja2
 
     def cruceFlor(self):
         porRemplazar = []
@@ -126,15 +139,56 @@ class Poblacion:
                 nuevasFlores.append(temp)
             else:
                 print("Hay un error en los cruces de flores")
-        return nuevasFlores,porRemplazar
+        return nuevasFlores, porRemplazar
 
-    def mutacion(self, abeja):
-        tira = abeja.getADN()
-        ran = random.randint(1, len(tira))
-        if tira[ran] == 0:
-            return tira[:ran - 1] + '1' + tira[ran:]
+    def mutacion(self, adn):
+        # tira = abeja.getADN()
+        ran = random.randint(1, len(adn))
+        if adn[ran] == 0:
+            return adn[:ran - 1] + '1' + adn[ran:]
         else:
-            return tira[:ran - 1] + '0' + tira[ran:]
+            return adn[:ran - 1] + '0' + adn[ran:]
+
+    # Abejas | Flores
+    def creaAbeja(self, adn, padres):
+        # R - G - B - Direccion - Angulo - Diametro - Tipo de recorrido
+
+        # MUTACION
+
+
+        ang = int(adn[27:33], 2)
+        if ang > 50:
+            ang = 50
+
+        dir = int(adn[33:39], 2)
+        if dir > 50:
+            dir = 50
+
+        tipo = int(adn[39:42], 2)
+        if tipo > 5:
+            tipo = 3
+
+        self.numAbejas += 1
+        abeja = Abeja(self.numAbejas, [int(adn[0:8], 2), int(adn[8:16], 2), int(adn[16:24], 2)],
+                       int(adn[24:27], 2), ang, dir, tipo, padres, self.countGeneracion)
+        return abeja
+
+    def eliminaAbeja(self,color,dira,dirb):
+        for abeja in self.abejas:
+            if abeja.color == color and abeja.direccionA == dira and abeja.direccionB == dirb:
+                self.abejas.remove(abeja)
+                return
+
+    def creaFlor(self,pos,polen):
+        flor = Flor()
+        flor.__init__(flor,pos,polen)
+        self.flores.append(flor)
+
+    def eliminaFlor(self,pos):
+        for flor in self.flores:
+            if flor.pos == pos:
+                self.flores.remove(flor)
+                return
 
 
     # Recorridos
@@ -170,12 +224,10 @@ class Poblacion:
 
     def busquedaAnchura(self, g, abeja):
         fIndex = self.florMasCercana(abeja.pos)
-        campo = abeja.Radio(50,50, 100, 100) # (Origen), grados de error, diametro
+        campo = abeja.Radio(50,50) # (Origen), angulo, diametro
 
         visitados = []
         cola = [fIndex]  # Vertice de inicio
-
-        abeja.distanciaTotal += self.distanciaPuntos(abeja.pos, self.flores[fIndex].pos)
 
         while cola:
             actual = cola.pop(0)
@@ -183,14 +235,11 @@ class Poblacion:
             # Si el vertice actual no ha sido visitado o no esta en el radio
             if actual not in visitados and (self.flores[actual].pos in campo):
                 visitados.append(actual)
+                abeja.floresEncontradas += 1
 
             for v in g:
                 if (v.obtenerId() not in visitados) and (self.flores[actual].pos in campo):
                     cola.append(v.obtenerId())
-
-        # for flor in self.flores:
-        #     if flor.pos in campo:
-        #         print('flor', flor.pos)
 
         for v in visitados:
             if visitados.index(v) < len(visitados)-1:
@@ -199,13 +248,33 @@ class Poblacion:
                 if final in inicio.conectadoA:
                     print("-> Distacia recorrida por la abeja -> ", inicio.obtenerDistancia(final),
                           " ( %s , %s )" % (inicio.obtenerId(), final.obtenerId()))
+
                     abeja.distanciaTotal += inicio.obtenerDistancia(final)
+                    self.depositarPolen(self.flores[visitados.index(v)], abeja.polenCarry)
+                    abeja.polenCarry.append(self.flores[visitados.index(v)])
+
                 elif inicio in final.conectadoA:
                     print("-> Distacia recorrida por la abeja -> ", final.obtenerDistancia(inicio),
                           " ( %s , %s )" % (inicio.obtenerId(), final.obtenerId()))
-                    abeja.distanciaTotal += final.obtenerDistancia(inicio)
 
-        print("Abeja ", abeja.id, "-> Distancia recorrida: ", abeja.distanciaTotal)
+                    abeja.distanciaTotal += final.obtenerDistancia(inicio)
+                    self.depositarPolen(self.flores[visitados.index(v)], abeja.polenCarry)
+                    abeja.polenCarry.append(self.flores[visitados.index(v)])
+            else:
+                print(visitados.index(v)-1, len(self.flores))
+                self.depositarPolen(self.flores[visitados.index(v)], abeja.polenCarry)
+                abeja.polenCarry.append(self.flores[visitados.index(v)])
+
+        if len(visitados) > 1:
+            abeja.distanciaTotal += self.distanciaPuntos(abeja.pos, self.flores[fIndex].pos)
+
+        print("-> Abeja ", abeja.id,
+              "\n   ADN: ", abeja.getADN(), " -> ",len(abeja.getADN()),
+              "\n   Distancia recorrida: ", abeja.distanciaTotal,
+              "\n   Flores visitadas: ", len(abeja.polenCarry), " -> ", visitados,
+              "\n   Angulo: ", abeja.angulo,
+              "\n   Diametro: ", abeja.diametro)
+
         return
 
     def busquedaProfundidad(self):
@@ -218,6 +287,34 @@ class Poblacion:
     def posInversa(self, index):
         pos = self.flores[index].pos
         return (pos[1], pos[0])
+
+    def depositarPolen(self, flor, polenFlores):
+        for f in polenFlores:
+            flor.deposito(f.polen)
+
+    def TextFile(self):
+        text = ''
+        for i in range(len(self.abejasGeneraciones)):
+            text += 'Generacion ' + str(i+1) + '\n\n'
+            for abeja in self.abejasGeneraciones[i]:
+                text += '\t' + 'Abeja ' + str(abeja.id) + '\n' + \
+                        '\t\t' + 'Color Favorito: (' + str(abeja.color[0]) + ', ' + \
+                        str(abeja.color[1]) + ', ' + str(abeja.color[2]) + ')\n' + \
+                        '\t\t' + 'Direccion Favorita: ' + self.direccion[abeja.direccion] + '\n' + \
+                        '\t\t' + 'Distancia Recorrida: ' + str(abeja.distanciaTotal) + '\n' + \
+                        '\t\t' + 'Flores Encontradas: ' + str(abeja.floresEncontradas) + '\n'
+                if abeja.padres is not []:
+                    print(str(abeja.padres))
+                    text += '\t\t' + 'Padres: ' + str(abeja.padres) + '\n'
+                text += '\t\t' + 'Puntaje: ' + str(abeja.puntaje) + '\n' + \
+                '\t\t' + 'Angulo: ' + str(abeja.angulo) + ', Radio: ' + str(abeja.diametro) + '\n\n'
+
+
+
+        f = open('Generaciones.txt', 'a')
+        f.write(text)
+        f.close()
+
 
 p = Poblacion()
 p.generaciones()

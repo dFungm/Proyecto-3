@@ -21,12 +21,12 @@ class Flor:
         self.seleccionada = True
         if self.polenmezcla == []:
             self.seleccionada = False
-            return self.pos
+            return self.pos, self.polen
         cantidad = len(self.polenmezcla)
         proba = random.randint(1,40)
         if cantidad > proba:
             self.seleccionada = False
-            return self.pos
+            return self.pos, self.polen
         else:
             ran = random.randint(0, len(self.polenmezcla)-1)
             polenselect = self.polenmezcla[ran]
@@ -35,4 +35,4 @@ class Flor:
             G=mezcla[random.randint(0,1)][1]
             B=mezcla[random.randint(0,1)][2]
             nuevaFlor = [R,G,B]
-            return nuevaFlor
+            return self.pos, nuevaFlor
