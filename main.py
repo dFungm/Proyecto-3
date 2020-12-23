@@ -96,6 +96,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Proyecto 3 Algoritmo genetico"))
         self.pushButton.setText(_translate("MainWindow", "Iniciar simulacion completa"))
         self.pushButton_3.setText(_translate("MainWindow", "Simular una generacion"))
+        self.pushButton_3.hide()
         self.label.setText(_translate("MainWindow", "Flores recolectadas"))
         self.label_2.setText(_translate("MainWindow", "Distancia recorrida"))
         self.label_3.setText(_translate("MainWindow", "Datos de la generacion final:"))
