@@ -105,6 +105,8 @@ class Ui_MainWindow(object):
         self.label_6.setText(_translate("MainWindow", "Cantidad de generaciones:"))
 
 
+
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)

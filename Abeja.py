@@ -38,7 +38,7 @@ class Abeja:
         tira += '0' * (6 - len(dm)) + dm
 
         tipo = str(bin(self.tipoRecorrido)[2:])
-        tira += '0' * (3 - len(tipo)) + tipo
+        tira += '0' * (4 - len(tipo)) + tipo
 
         return tira
 
@@ -48,7 +48,6 @@ class Abeja:
     # lado derecho en X, SOLO SE EJECTUA CUANDO SE CREA UNA ABEJA, luego de eso no se
     # deberia de llamar, para eliminar strains en performance
     def selectDir(self):
-        print("direccion", self.direccion)
         if self.dir[self.direccion] == 'Norte':
             return [0,1]
         elif self.dir[self.direccion] == 'Noreste':

@@ -1,0 +1,656 @@
+Generacion 1
+
+	Abeja 1
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: []
+		Puntaje: 95.0
+		Angulo: 18, Radio: 20
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 2
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 191.5568112988893
+		Flores Encontradas: 7
+		Padres: []
+		Puntaje: 19.0
+		Angulo: 48, Radio: 29
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 3
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: []
+		Puntaje: 100
+		Angulo: 40, Radio: 29
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 4
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: []
+		Puntaje: 95.0
+		Angulo: 18, Radio: 33
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 5
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: []
+		Puntaje: 100
+		Angulo: 35, Radio: 13
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 6
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 38.36554242289039
+		Flores Encontradas: 3
+		Padres: []
+		Puntaje: 87.0
+		Angulo: 24, Radio: 25
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 7
+		Color Favorito: (128, 128, 128)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: []
+		Puntaje: 100
+		Angulo: 26, Radio: 16
+		Tipo de recorrido: Aleatorio
+
+	Abeja 8
+		Color Favorito: (255, 255, 255)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 38.36554242289039
+		Flores Encontradas: 3
+		Padres: []
+		Puntaje: 87.0
+		Angulo: 31, Radio: 22
+		Tipo de recorrido: Lejos del panal, por anchura
+
+Generacion 2
+
+	Abeja 9
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: [1, 2]
+		Puntaje: 95.0
+		Angulo: 18, Radio: 29
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 10
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 115.8885890878515
+		Flores Encontradas: 4
+		Padres: [1, 2]
+		Puntaje: 51.0
+		Angulo: 48, Radio: 20
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 11
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [3, 4]
+		Puntaje: 100
+		Angulo: 18, Radio: 33
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 12
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [3, 4]
+		Puntaje: 100
+		Angulo: 40, Radio: 29
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 13
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 100.46646640719968
+		Flores Encontradas: 5
+		Padres: [5, 6]
+		Puntaje: 60.0
+		Angulo: 24, Radio: 25
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 14
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Este
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [5, 6]
+		Puntaje: 100
+		Angulo: 35, Radio: 13
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 15
+		Color Favorito: (128, 128, 143)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 38.36554242289039
+		Flores Encontradas: 3
+		Padres: [7, 8]
+		Puntaje: 87.0
+		Angulo: 31, Radio: 22
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 16
+		Color Favorito: (255, 255, 240)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [7, 8]
+		Puntaje: 100
+		Angulo: 26, Radio: 16
+		Tipo de recorrido: Aleatorio
+
+Generacion 3
+
+	Abeja 17
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 115.8885890878515
+		Flores Encontradas: 4
+		Padres: [9, 10]
+		Puntaje: 51.0
+		Angulo: 48, Radio: 20
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 18
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: [9, 10]
+		Puntaje: 95.0
+		Angulo: 18, Radio: 29
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 19
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: [11, 12]
+		Puntaje: 95.0
+		Angulo: 16, Radio: 29
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 20
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [11, 12]
+		Puntaje: 100
+		Angulo: 42, Radio: 33
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 21
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Este
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [13, 14]
+		Puntaje: 100
+		Angulo: 35, Radio: 13
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 22
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 100.46646640719968
+		Flores Encontradas: 5
+		Padres: [13, 14]
+		Puntaje: 60.0
+		Angulo: 24, Radio: 25
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 23
+		Color Favorito: (0, 128, 143)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 48.132591656616114
+		Flores Encontradas: 3
+		Padres: [15, 16]
+		Puntaje: 82.0
+		Angulo: 26, Radio: 16
+		Tipo de recorrido: Aleatorio
+
+	Abeja 24
+		Color Favorito: (127, 255, 240)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [15, 16]
+		Puntaje: 100
+		Angulo: 31, Radio: 22
+		Tipo de recorrido: Lejos del panal, por anchura
+
+Generacion 4
+
+	Abeja 25
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: [17, 18]
+		Puntaje: 95.0
+		Angulo: 18, Radio: 29
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 26
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 115.8885890878515
+		Flores Encontradas: 4
+		Padres: [17, 18]
+		Puntaje: 51.0
+		Angulo: 48, Radio: 20
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 27
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [19, 20]
+		Puntaje: 100
+		Angulo: 42, Radio: 33
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 28
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Sureste
+		Distancia Recorrida: 18.44068357771912
+		Flores Encontradas: 2
+		Padres: [19, 20]
+		Puntaje: 95.0
+		Angulo: 16, Radio: 29
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 29
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Este
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [21, 22]
+		Puntaje: 100
+		Angulo: 32, Radio: 25
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 30
+		Color Favorito: (255, 0, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [21, 22]
+		Puntaje: 100
+		Angulo: 27, Radio: 13
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 31
+		Color Favorito: (0, 128, 143)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [23, 24]
+		Puntaje: 100
+		Angulo: 31, Radio: 22
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 32
+		Color Favorito: (127, 255, 240)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 50.91544308908688
+		Flores Encontradas: 3
+		Padres: [23, 24]
+		Puntaje: 81.0
+		Angulo: 26, Radio: 16
+		Tipo de recorrido: Aleatorio
+
+Generacion 1
+
+	Abeja 1
+		Color Favorito: (255, 255, 0)
+		Direccion Favorita: Suroeste
+		Distancia Recorrida: 121.2663267004964
+		Flores Encontradas: 4
+		Padres: []
+		Puntaje: 48.0
+		Angulo: 32, Radio: 39
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 2
+		Color Favorito: (128, 0, 128)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 113.60324846998518
+		Flores Encontradas: 5
+		Padres: []
+		Puntaje: 54.0
+		Angulo: 41, Radio: 29
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 3
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 46.028089290323734
+		Flores Encontradas: 2
+		Padres: []
+		Puntaje: 81.0
+		Angulo: 19, Radio: 40
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 4
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Norte
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: []
+		Puntaje: 100
+		Angulo: 20, Radio: 14
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 5
+		Color Favorito: (128, 128, 128)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: []
+		Puntaje: 100
+		Angulo: 37, Radio: 39
+		Tipo de recorrido: Aleatorio
+
+	Abeja 6
+		Color Favorito: (0, 0, 255)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 32.89012208387556
+		Flores Encontradas: 2
+		Padres: []
+		Puntaje: 88.0
+		Angulo: 26, Radio: 18
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 7
+		Color Favorito: (255, 255, 255)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 55.62390796198821
+		Flores Encontradas: 2
+		Padres: []
+		Puntaje: 77.0
+		Angulo: 25, Radio: 20
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 8
+		Color Favorito: (128, 128, 128)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 211.04264197492589
+		Flores Encontradas: 5
+		Padres: []
+		Puntaje: 5.0
+		Angulo: 45, Radio: 26
+		Tipo de recorrido: Aleatorio
+
+Generacion 2
+
+	Abeja 9
+		Color Favorito: (255, 254, 128)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 113.60324846998518
+		Flores Encontradas: 5
+		Padres: [1, 2]
+		Puntaje: 54.0
+		Angulo: 41, Radio: 29
+		Tipo de recorrido: Cerca del panal, por profundidad
+
+	Abeja 10
+		Color Favorito: (128, 1, 0)
+		Direccion Favorita: Suroeste
+		Distancia Recorrida: 175.3578799848416
+		Flores Encontradas: 4
+		Padres: [1, 2]
+		Puntaje: 21.0
+		Angulo: 32, Radio: 39
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 11
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Norte
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [3, 4]
+		Puntaje: 100
+		Angulo: 20, Radio: 14
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 12
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 46.028089290323734
+		Flores Encontradas: 2
+		Padres: [3, 4]
+		Puntaje: 81.0
+		Angulo: 19, Radio: 40
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 13
+		Color Favorito: (128, 128, 128)
+		Direccion Favorita: Oeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [5, 6]
+		Puntaje: 100
+		Angulo: 37, Radio: 50
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 14
+		Color Favorito: (0, 0, 255)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 25.079872407968907
+		Flores Encontradas: 1
+		Padres: [5, 6]
+		Puntaje: 90.0
+		Angulo: 26, Radio: 7
+		Tipo de recorrido: Aleatorio
+
+	Abeja 15
+		Color Favorito: (255, 255, 128)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 171.04787854187077
+		Flores Encontradas: 5
+		Padres: [7, 8]
+		Puntaje: 25.0
+		Angulo: 45, Radio: 26
+		Tipo de recorrido: Aleatorio
+
+	Abeja 16
+		Color Favorito: (128, 128, 255)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 55.62390796198821
+		Flores Encontradas: 2
+		Padres: [7, 8]
+		Puntaje: 77.0
+		Angulo: 25, Radio: 20
+		Tipo de recorrido: Lejos del panal, por anchura
+
+Generacion 3
+
+	Abeja 17
+		Color Favorito: (255, 254, 128)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 135.83405279540884
+		Flores Encontradas: 5
+		Padres: [9, 10]
+		Puntaje: 43.0
+		Angulo: 41, Radio: 29
+		Tipo de recorrido: Aleatorio
+
+	Abeja 18
+		Color Favorito: (128, 1, 0)
+		Direccion Favorita: Suroeste
+		Distancia Recorrida: 175.3578799848416
+		Flores Encontradas: 4
+		Padres: [9, 10]
+		Puntaje: 21.0
+		Angulo: 32, Radio: 39
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 19
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Norte
+		Distancia Recorrida: 62.984331159037694
+		Flores Encontradas: 3
+		Padres: [11, 12]
+		Puntaje: 75.0
+		Angulo: 19, Radio: 40
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 20
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 46.028089290323734
+		Flores Encontradas: 2
+		Padres: [11, 12]
+		Puntaje: 81.0
+		Angulo: 20, Radio: 14
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 21
+		Color Favorito: (128, 128, 128)
+		Direccion Favorita: Este
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [13, 14]
+		Puntaje: 100
+		Angulo: 36, Radio: 7
+		Tipo de recorrido: Aleatorio
+
+	Abeja 22
+		Color Favorito: (0, 0, 255)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 91.06506442711276
+		Flores Encontradas: 5
+		Padres: [13, 14]
+		Puntaje: 65.0
+		Angulo: 27, Radio: 50
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 23
+		Color Favorito: (240, 128, 255)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 55.62390796198821
+		Flores Encontradas: 2
+		Padres: [15, 16]
+		Puntaje: 77.0
+		Angulo: 25, Radio: 20
+		Tipo de recorrido: Lejos del panal, por anchura
+
+	Abeja 24
+		Color Favorito: (143, 255, 128)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 183.5569724952237
+		Flores Encontradas: 5
+		Padres: [15, 16]
+		Puntaje: 19.0
+		Angulo: 45, Radio: 26
+		Tipo de recorrido: Aleatorio
+
+Generacion 4
+
+	Abeja 25
+		Color Favorito: (255, 254, 128)
+		Direccion Favorita: Noreste
+		Distancia Recorrida: 149.99431033432086
+		Flores Encontradas: 6
+		Padres: [17, 18]
+		Puntaje: 38.0
+		Angulo: 40, Radio: 39
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 26
+		Color Favorito: (128, 1, 0)
+		Direccion Favorita: Suroeste
+		Distancia Recorrida: 32.89012208387556
+		Flores Encontradas: 2
+		Padres: [17, 18]
+		Puntaje: 88.0
+		Angulo: 33, Radio: 29
+		Tipo de recorrido: Aleatorio
+
+	Abeja 27
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Norte
+		Distancia Recorrida: 62.984331159037694
+		Flores Encontradas: 3
+		Padres: [19, 20]
+		Puntaje: 75.0
+		Angulo: 19, Radio: 40
+		Tipo de recorrido: Cerca del panal, por anchura
+
+	Abeja 28
+		Color Favorito: (0, 128, 0)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [19, 20]
+		Puntaje: 100
+		Angulo: 20, Radio: 14
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 29
+		Color Favorito: (128, 128, 129)
+		Direccion Favorita: Sur
+		Distancia Recorrida: 91.06506442711276
+		Flores Encontradas: 5
+		Padres: [21, 22]
+		Puntaje: 65.0
+		Angulo: 27, Radio: 50
+		Tipo de recorrido: Lejos del panal, por profundidad
+
+	Abeja 30
+		Color Favorito: (0, 0, 254)
+		Direccion Favorita: Este
+		Distancia Recorrida: 0
+		Flores Encontradas: 0
+		Padres: [21, 22]
+		Puntaje: 100
+		Angulo: 36, Radio: 7
+		Tipo de recorrido: Aleatorio
+
+	Abeja 31
+		Color Favorito: (240, 128, 255)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 55.62390796198821
+		Flores Encontradas: 2
+		Padres: [23, 24]
+		Puntaje: 77.0
+		Angulo: 25, Radio: 26
+		Tipo de recorrido: Aleatorio
+
+	Abeja 32
+		Color Favorito: (143, 255, 128)
+		Direccion Favorita: Noroeste
+		Distancia Recorrida: 45.27692569068709
+		Flores Encontradas: 1
+		Padres: [23, 24]
+		Puntaje: 80.0
+		Angulo: 45, Radio: 20
+		Tipo de recorrido: Lejos del panal, por anchura
+
