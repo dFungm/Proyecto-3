@@ -26,20 +26,20 @@ class Poblacion:
                               'Aleatorio']
         self.ventana = ventana
         self.ventanamain = ventanamain
+        #-------------------------
         self.cantidadFlores = 20
         self.cantidadAbejas = 8
+        self.threadTime = 1
+        #-------------------------
         self.flores = []
         self.abejas = []
-        self.countGeneracion = 1
-        self.threadTime = 1
         self.parada = 0
         self.grafoFlores = None
         self.floresGeneraciones = []
         self.abejasGeneraciones = []
         self.numFlores = 0
         self.numAbejas = 0
-        self.panal = [50,50]
-        self.newFlower = None
+        self.countGeneracion = 1
 
     # Generaciones (Threads)
     def generaciones(self,gens,lb1,lb2):
