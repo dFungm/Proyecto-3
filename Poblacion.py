@@ -77,7 +77,7 @@ class Poblacion:
 
     def generacionInicial(self, segundos, qp):
         print("\n\nGeneración ", self.countGeneracion)
-        w = Window()
+        # w = Window()
         for i in range(self.cantidadFlores):
             self.numFlores += 1
             ranX = random.randint(0,99)
@@ -104,9 +104,9 @@ class Poblacion:
             self.abejas.append(abeja)
 
         self.threadAbejas()
-        for flor in self.flores:
-            w.paint(flor.pos[0], flor.pos[1], flor.polen)
-        w.window.mainloop()
+        # for flor in self.flores:
+        #     w.paint(flor.pos[0], flor.pos[1], flor.polen)
+        # w.window.mainloop()
 
     def generacion(self, segundos, qp):
         # w = Window()
