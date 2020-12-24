@@ -33,7 +33,7 @@ class Ui_MainWindow(object):
         self.frame.setLineWidth(5)
         self.frame.setObjectName("frame")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(0, 290, 141, 81))
+        self.pushButton.setGeometry(QtCore.QRect(100, 320, 200, 60))
         self.pushButton.setStyleSheet("background-color:rgb(243, 231, 21);\n"
 "color:rgb(16, 24, 32)")
         self.pushButton.setObjectName("pushButton")
@@ -43,11 +43,11 @@ class Ui_MainWindow(object):
 "color:rgb(16, 24, 32)")
         self.pushButton_3.setObjectName("pushButton_3")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(40, 180, 101, 16))
+        self.label.setGeometry(QtCore.QRect(50, 180, 101, 16))
         self.label.setStyleSheet("color:rgb(255, 255, 255)")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(40, 210, 91, 16))
+        self.label_2.setGeometry(QtCore.QRect(55, 210, 91, 16))
         self.label_2.setStyleSheet("color:rgb(255, 255, 255)")
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
@@ -63,11 +63,12 @@ class Ui_MainWindow(object):
         self.label_5.setStyleSheet("color:rgb(255, 255, 255)")
         self.label_5.setObjectName("label_5")
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(10, 260, 121, 20))
+        self.lineEdit.setGeometry(QtCore.QRect(160, 240, 50, 20))
         self.lineEdit.setStyleSheet("color:rgb(255, 255, 255)")
         self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
-        self.label_6.setGeometry(QtCore.QRect(10, 230, 131, 16))
+        self.label_6.setGeometry(QtCore.QRect(20, 240, 131, 16))
         self.label_6.setStyleSheet("color:rgb(255, 255, 255)")
         self.label_6.setObjectName("label_6")
         self.labelMap = QtWidgets.QLabel(self.frame)
@@ -103,10 +104,7 @@ class Ui_MainWindow(object):
         self.label_4.setText(_translate("MainWindow", "0"))
         self.label_5.setText(_translate("MainWindow", "0"))
         self.lineEdit.setText(_translate("MainWindow", "5"))
-        self.label_6.setText(_translate("MainWindow", "Cantidad de generaciones:"))
-
-
-
+        self.label_6.setText(_translate("MainWindow", "Cantidad de generaciones"))
 
 if __name__ == "__main__":
     import sys

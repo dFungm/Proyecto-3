@@ -1,0 +1,3488 @@
+Generacion 1
+
+	Flor 1
+		Color: (0, 255, 255)
+		Posicion: (90, 92)
+		Polen recolectado: [ 0]
+
+	Flor 2
+		Color: (0, 255, 255)
+		Posicion: (71, 6)
+		Polen recolectado: [ 25]
+
+	Flor 3
+		Color: (255, 255, 255)
+		Posicion: (37, 56)
+		Polen recolectado: [ 30]
+
+	Flor 4
+		Color: (0, 128, 0)
+		Posicion: (17, 21)
+		Polen recolectado: [ 27]
+
+	Flor 5
+		Color: (255, 255, 0)
+		Posicion: (48, 13)
+		Polen recolectado: [ 21]
+
+	Flor 6
+		Color: (255, 255, 0)
+		Posicion: (6, 52)
+		Polen recolectado: [ 27]
+
+	Flor 7
+		Color: (255, 0, 0)
+		Posicion: (41, 54)
+		Polen recolectado: [ 41]
+
+	Flor 8
+		Color: (0, 128, 0)
+		Posicion: (88, 67)
+		Polen recolectado: [ 21]
+
+	Flor 9
+		Color: (128, 0, 128)
+		Posicion: (70, 95)
+		Polen recolectado: [ 16]
+
+	Flor 10
+		Color: (0, 128, 0)
+		Posicion: (51, 63)
+		Polen recolectado: [ 20]
+
+	Flor 11
+		Color: (0, 255, 255)
+		Posicion: (93, 37)
+		Polen recolectado: [ 24]
+
+	Flor 12
+		Color: (255, 255, 255)
+		Posicion: (24, 2)
+		Polen recolectado: [ 0]
+
+	Flor 13
+		Color: (0, 255, 255)
+		Posicion: (84, 86)
+		Polen recolectado: [ 0]
+
+	Flor 14
+		Color: (255, 255, 255)
+		Posicion: (34, 33)
+		Polen recolectado: [ 12]
+
+	Flor 15
+		Color: (0, 128, 0)
+		Posicion: (70, 35)
+		Polen recolectado: [ 8]
+
+	Flor 16
+		Color: (255, 0, 0)
+		Posicion: (89, 77)
+		Polen recolectado: [ 0]
+
+	Flor 17
+		Color: (0, 128, 0)
+		Posicion: (73, 88)
+		Polen recolectado: [ 0]
+
+	Flor 18
+		Color: (128, 128, 128)
+		Posicion: (80, 22)
+		Polen recolectado: [ 23]
+
+	Flor 19
+		Color: (255, 255, 0)
+		Posicion: (66, 97)
+		Polen recolectado: [ 0]
+
+	Flor 20
+		Color: (255, 255, 255)
+		Posicion: (16, 13)
+		Polen recolectado: [ 0]
+
+	Flor 21
+		Color: (0, 255, 255)
+		Posicion: (31, 16)
+		Polen recolectado: [ 22]
+
+	Flor 22
+		Color: (128, 0, 128)
+		Posicion: (82, 54)
+		Polen recolectado: [ 15]
+
+	Flor 23
+		Color: (128, 0, 128)
+		Posicion: (86, 43)
+		Polen recolectado: [ 18]
+
+	Flor 24
+		Color: (0, 128, 0)
+		Posicion: (49, 53)
+		Polen recolectado: [ 34]
+
+	Flor 25
+		Color: (0, 255, 255)
+		Posicion: (53, 21)
+		Polen recolectado: [ 14]
+
+	Flor 26
+		Color: (255, 255, 0)
+		Posicion: (62, 75)
+		Polen recolectado: [ 22]
+
+	Flor 27
+		Color: (128, 128, 128)
+		Posicion: (52, 82)
+		Polen recolectado: [ 2]
+
+	Flor 28
+		Color: (128, 0, 128)
+		Posicion: (50, 82)
+		Polen recolectado: [ 1]
+
+	Flor 29
+		Color: (0, 255, 255)
+		Posicion: (6, 71)
+		Polen recolectado: [ 5]
+
+	Flor 30
+		Color: (255, 0, 0)
+		Posicion: (40, 11)
+		Polen recolectado: [ 0]
+
+	Flor 31
+		Color: (255, 0, 0)
+		Posicion: (34, 57)
+		Polen recolectado: [ 20]
+
+	Flor 32
+		Color: (255, 0, 0)
+		Posicion: (1, 89)
+		Polen recolectado: [ 0]
+
+	Flor 33
+		Color: (0, 128, 0)
+		Posicion: (78, 18)
+		Polen recolectado: [ 17]
+
+	Flor 34
+		Color: (128, 0, 128)
+		Posicion: (34, 16)
+		Polen recolectado: [ 0]
+
+	Flor 35
+		Color: (255, 0, 0)
+		Posicion: (68, 87)
+		Polen recolectado: [ 0]
+
+	Flor 36
+		Color: (0, 255, 255)
+		Posicion: (87, 4)
+		Polen recolectado: [ 12]
+
+	Flor 37
+		Color: (0, 128, 0)
+		Posicion: (75, 44)
+		Polen recolectado: [ 34]
+
+	Flor 38
+		Color: (128, 128, 128)
+		Posicion: (31, 31)
+		Polen recolectado: [ 9]
+
+	Flor 39
+		Color: (255, 255, 255)
+		Posicion: (84, 58)
+		Polen recolectado: [ 1]
+
+	Flor 40
+		Color: (128, 128, 128)
+		Posicion: (9, 7)
+		Polen recolectado: [ 14]
+
+	Flor 41
+		Color: (255, 0, 0)
+		Posicion: (32, 21)
+		Polen recolectado: [ 11]
+
+	Flor 42
+		Color: (255, 255, 0)
+		Posicion: (26, 50)
+		Polen recolectado: [ 39]
+
+	Flor 43
+		Color: (0, 255, 255)
+		Posicion: (50, 11)
+		Polen recolectado: [ 0]
+
+	Flor 44
+		Color: (255, 0, 0)
+		Posicion: (43, 65)
+		Polen recolectado: [ 9]
+
+	Flor 45
+		Color: (255, 0, 0)
+		Posicion: (79, 9)
+		Polen recolectado: [ 11]
+
+	Flor 46
+		Color: (255, 0, 0)
+		Posicion: (53, 26)
+		Polen recolectado: [ 29]
+
+	Flor 47
+		Color: (0, 128, 0)
+		Posicion: (8, 66)
+		Polen recolectado: [ 7]
+
+	Flor 48
+		Color: (0, 255, 255)
+		Posicion: (92, 14)
+		Polen recolectado: [ 17]
+
+	Flor 49
+		Color: (128, 0, 128)
+		Posicion: (17, 17)
+		Polen recolectado: [ 0]
+
+	Flor 50
+		Color: (0, 255, 255)
+		Posicion: (22, 3)
+		Polen recolectado: [ 0]
+
+	Flor 51
+		Color: (128, 128, 128)
+		Posicion: (56, 48)
+		Polen recolectado: [ 6]
+
+	Flor 52
+		Color: (255, 0, 0)
+		Posicion: (57, 28)
+		Polen recolectado: [ 11]
+
+	Flor 53
+		Color: (0, 128, 0)
+		Posicion: (10, 12)
+		Polen recolectado: [ 20]
+
+	Flor 54
+		Color: (255, 255, 0)
+		Posicion: (50, 87)
+		Polen recolectado: [ 0]
+
+	Flor 55
+		Color: (0, 255, 255)
+		Posicion: (66, 86)
+		Polen recolectado: [ 0]
+
+	Flor 56
+		Color: (0, 0, 255)
+		Posicion: (96, 99)
+		Polen recolectado: [ 0]
+
+	Flor 57
+		Color: (0, 128, 0)
+		Posicion: (27, 8)
+		Polen recolectado: [ 0]
+
+	Flor 58
+		Color: (0, 255, 255)
+		Posicion: (12, 89)
+		Polen recolectado: [ 0]
+
+	Flor 59
+		Color: (255, 255, 255)
+		Posicion: (7, 24)
+		Polen recolectado: [ 11]
+
+	Flor 60
+		Color: (255, 255, 0)
+		Posicion: (16, 17)
+		Polen recolectado: [ 12]
+
+	Flor 61
+		Color: (0, 128, 0)
+		Posicion: (42, 79)
+		Polen recolectado: [ 14]
+
+	Flor 62
+		Color: (255, 255, 255)
+		Posicion: (7, 63)
+		Polen recolectado: [ 18]
+
+	Flor 63
+		Color: (0, 128, 0)
+		Posicion: (41, 14)
+		Polen recolectado: [ 7]
+
+	Flor 64
+		Color: (0, 255, 255)
+		Posicion: (41, 69)
+		Polen recolectado: [ 14]
+
+	Flor 65
+		Color: (0, 0, 255)
+		Posicion: (11, 98)
+		Polen recolectado: [ 0]
+
+	Flor 66
+		Color: (128, 128, 128)
+		Posicion: (27, 40)
+		Polen recolectado: [ 32]
+
+	Flor 67
+		Color: (255, 255, 255)
+		Posicion: (55, 14)
+		Polen recolectado: [ 5]
+
+	Flor 68
+		Color: (0, 128, 0)
+		Posicion: (56, 11)
+		Polen recolectado: [ 21]
+
+	Flor 69
+		Color: (0, 255, 255)
+		Posicion: (74, 79)
+		Polen recolectado: [ 0]
+
+	Flor 70
+		Color: (128, 128, 128)
+		Posicion: (79, 5)
+		Polen recolectado: [ 29]
+
+	Flor 71
+		Color: (255, 255, 0)
+		Posicion: (57, 98)
+		Polen recolectado: [ 0]
+
+	Flor 72
+		Color: (0, 128, 0)
+		Posicion: (88, 68)
+		Polen recolectado: [ 0]
+
+	Flor 73
+		Color: (255, 255, 0)
+		Posicion: (68, 49)
+		Polen recolectado: [ 46]
+
+	Flor 74
+		Color: (255, 0, 0)
+		Posicion: (83, 56)
+		Polen recolectado: [ 15]
+
+	Flor 75
+		Color: (128, 128, 128)
+		Posicion: (38, 71)
+		Polen recolectado: [ 24]
+
+	Flor 76
+		Color: (128, 0, 128)
+		Posicion: (92, 35)
+		Polen recolectado: [ 19]
+
+	Flor 77
+		Color: (128, 0, 128)
+		Posicion: (55, 94)
+		Polen recolectado: [ 0]
+
+	Flor 78
+		Color: (0, 128, 0)
+		Posicion: (49, 74)
+		Polen recolectado: [ 26]
+
+	Flor 79
+		Color: (255, 255, 255)
+		Posicion: (16, 71)
+		Polen recolectado: [ 10]
+
+	Flor 80
+		Color: (255, 255, 255)
+		Posicion: (73, 52)
+		Polen recolectado: [ 10]
+
+Generacion 2
+
+	Flor 81
+		Color: (0, 255, 255)
+		Posicion: (90, 92)
+		Polen recolectado: [ 0]
+
+	Flor 82
+		Color: (0, 255, 255)
+		Posicion: (71, 6)
+		Polen recolectado: [ 9]
+
+	Flor 83
+		Color: (255, 255, 255)
+		Posicion: (37, 56)
+		Polen recolectado: [ 18]
+
+	Flor 84
+		Color: (0, 128, 0)
+		Posicion: (17, 21)
+		Polen recolectado: [ 32]
+
+	Flor 85
+		Color: (255, 255, 0)
+		Posicion: (48, 13)
+		Polen recolectado: [ 28]
+
+	Flor 86
+		Color: (255, 255, 0)
+		Posicion: (6, 52)
+		Polen recolectado: [ 28]
+
+	Flor 87
+		Color: (255, 0, 0)
+		Posicion: (41, 54)
+		Polen recolectado: [ 27]
+
+	Flor 88
+		Color: (0, 128, 0)
+		Posicion: (88, 67)
+		Polen recolectado: [ 21]
+
+	Flor 89
+		Color: (128, 0, 128)
+		Posicion: (70, 95)
+		Polen recolectado: [ 32]
+
+	Flor 90
+		Color: (0, 128, 0)
+		Posicion: (51, 63)
+		Polen recolectado: [ 56]
+
+	Flor 91
+		Color: (0, 255, 255)
+		Posicion: (93, 37)
+		Polen recolectado: [ 47]
+
+	Flor 92
+		Color: (255, 255, 255)
+		Posicion: (24, 2)
+		Polen recolectado: [ 22]
+
+	Flor 93
+		Color: (0, 255, 255)
+		Posicion: (84, 86)
+		Polen recolectado: [ 24]
+
+	Flor 94
+		Color: (0, 128, 0)
+		Posicion: (34, 33)
+		Polen recolectado: [ 86]
+
+	Flor 95
+		Color: (0, 128, 0)
+		Posicion: (70, 35)
+		Polen recolectado: [ 64]
+
+	Flor 96
+		Color: (255, 0, 0)
+		Posicion: (89, 77)
+		Polen recolectado: [ 15]
+
+	Flor 97
+		Color: (0, 128, 0)
+		Posicion: (73, 88)
+		Polen recolectado: [ 16]
+
+	Flor 98
+		Color: (128, 128, 128)
+		Posicion: (80, 22)
+		Polen recolectado: [ 28]
+
+	Flor 99
+		Color: (255, 255, 0)
+		Posicion: (66, 97)
+		Polen recolectado: [ 18]
+
+	Flor 100
+		Color: (255, 255, 255)
+		Posicion: (16, 13)
+		Polen recolectado: [ 52]
+
+	Flor 101
+		Color: (0, 255, 255)
+		Posicion: (31, 16)
+		Polen recolectado: [ 25]
+
+	Flor 102
+		Color: (128, 255, 128)
+		Posicion: (82, 54)
+		Polen recolectado: [ 23]
+
+	Flor 103
+		Color: (0, 128, 128)
+		Posicion: (86, 43)
+		Polen recolectado: [ 39]
+
+	Flor 104
+		Color: (0, 128, 0)
+		Posicion: (49, 53)
+		Polen recolectado: [ 3]
+
+	Flor 105
+		Color: (0, 0, 255)
+		Posicion: (53, 21)
+		Polen recolectado: [ 16]
+
+	Flor 106
+		Color: (255, 255, 0)
+		Posicion: (62, 75)
+		Polen recolectado: [ 12]
+
+	Flor 107
+		Color: (128, 128, 128)
+		Posicion: (52, 82)
+		Polen recolectado: [ 4]
+
+	Flor 108
+		Color: (128, 0, 128)
+		Posicion: (50, 82)
+		Polen recolectado: [ 9]
+
+	Flor 109
+		Color: (255, 255, 255)
+		Posicion: (6, 71)
+		Polen recolectado: [ 0]
+
+	Flor 110
+		Color: (255, 0, 0)
+		Posicion: (40, 11)
+		Polen recolectado: [ 11]
+
+	Flor 111
+		Color: (255, 0, 0)
+		Posicion: (34, 57)
+		Polen recolectado: [ 9]
+
+	Flor 112
+		Color: (255, 0, 0)
+		Posicion: (1, 89)
+		Polen recolectado: [ 0]
+
+	Flor 113
+		Color: (255, 128, 0)
+		Posicion: (78, 18)
+		Polen recolectado: [ 53]
+
+	Flor 114
+		Color: (128, 0, 128)
+		Posicion: (34, 16)
+		Polen recolectado: [ 48]
+
+	Flor 115
+		Color: (255, 0, 0)
+		Posicion: (68, 87)
+		Polen recolectado: [ 0]
+
+	Flor 116
+		Color: (0, 128, 255)
+		Posicion: (87, 4)
+		Polen recolectado: [ 0]
+
+	Flor 117
+		Color: (0, 128, 0)
+		Posicion: (75, 44)
+		Polen recolectado: [ 16]
+
+	Flor 118
+		Color: (128, 0, 128)
+		Posicion: (31, 31)
+		Polen recolectado: [ 38]
+
+	Flor 119
+		Color: (255, 255, 255)
+		Posicion: (84, 58)
+		Polen recolectado: [ 8]
+
+	Flor 120
+		Color: (128, 128, 128)
+		Posicion: (9, 7)
+		Polen recolectado: [ 0]
+
+	Flor 121
+		Color: (255, 0, 0)
+		Posicion: (32, 21)
+		Polen recolectado: [ 12]
+
+	Flor 122
+		Color: (255, 255, 0)
+		Posicion: (26, 50)
+		Polen recolectado: [ 17]
+
+	Flor 123
+		Color: (0, 255, 255)
+		Posicion: (50, 11)
+		Polen recolectado: [ 36]
+
+	Flor 124
+		Color: (255, 255, 255)
+		Posicion: (43, 65)
+		Polen recolectado: [ 10]
+
+	Flor 125
+		Color: (0, 0, 0)
+		Posicion: (79, 9)
+		Polen recolectado: [ 41]
+
+	Flor 126
+		Color: (255, 0, 0)
+		Posicion: (53, 26)
+		Polen recolectado: [ 31]
+
+	Flor 127
+		Color: (0, 255, 255)
+		Posicion: (8, 66)
+		Polen recolectado: [ 0]
+
+	Flor 128
+		Color: (0, 128, 255)
+		Posicion: (92, 14)
+		Polen recolectado: [ 3]
+
+	Flor 129
+		Color: (128, 0, 128)
+		Posicion: (17, 17)
+		Polen recolectado: [ 42]
+
+	Flor 130
+		Color: (0, 255, 255)
+		Posicion: (22, 3)
+		Polen recolectado: [ 0]
+
+	Flor 131
+		Color: (0, 128, 128)
+		Posicion: (56, 48)
+		Polen recolectado: [ 49]
+
+	Flor 132
+		Color: (255, 0, 0)
+		Posicion: (57, 28)
+		Polen recolectado: [ 33]
+
+	Flor 133
+		Color: (0, 255, 255)
+		Posicion: (10, 12)
+		Polen recolectado: [ 8]
+
+	Flor 134
+		Color: (255, 255, 0)
+		Posicion: (50, 87)
+		Polen recolectado: [ 8]
+
+	Flor 135
+		Color: (0, 255, 255)
+		Posicion: (66, 86)
+		Polen recolectado: [ 0]
+
+	Flor 136
+		Color: (0, 0, 255)
+		Posicion: (96, 99)
+		Polen recolectado: [ 0]
+
+	Flor 137
+		Color: (0, 128, 0)
+		Posicion: (27, 8)
+		Polen recolectado: [ 32]
+
+	Flor 138
+		Color: (0, 255, 255)
+		Posicion: (12, 89)
+		Polen recolectado: [ 0]
+
+	Flor 139
+		Color: (255, 255, 255)
+		Posicion: (7, 24)
+		Polen recolectado: [ 1]
+
+	Flor 140
+		Color: (255, 255, 0)
+		Posicion: (16, 17)
+		Polen recolectado: [ 16]
+
+	Flor 141
+		Color: (0, 128, 0)
+		Posicion: (42, 79)
+		Polen recolectado: [ 1]
+
+	Flor 142
+		Color: (255, 255, 255)
+		Posicion: (7, 63)
+		Polen recolectado: [ 0]
+
+	Flor 143
+		Color: (255, 255, 0)
+		Posicion: (41, 14)
+		Polen recolectado: [ 20]
+
+	Flor 144
+		Color: (0, 255, 255)
+		Posicion: (41, 69)
+		Polen recolectado: [ 7]
+
+	Flor 145
+		Color: (0, 0, 255)
+		Posicion: (11, 98)
+		Polen recolectado: [ 0]
+
+	Flor 146
+		Color: (128, 128, 128)
+		Posicion: (27, 40)
+		Polen recolectado: [ 10]
+
+	Flor 147
+		Color: (255, 255, 255)
+		Posicion: (55, 14)
+		Polen recolectado: [ 0]
+
+	Flor 148
+		Color: (0, 128, 0)
+		Posicion: (56, 11)
+		Polen recolectado: [ 0]
+
+	Flor 149
+		Color: (0, 255, 255)
+		Posicion: (74, 79)
+		Polen recolectado: [ 0]
+
+	Flor 150
+		Color: (128, 128, 128)
+		Posicion: (79, 5)
+		Polen recolectado: [ 0]
+
+	Flor 151
+		Color: (255, 255, 0)
+		Posicion: (57, 98)
+		Polen recolectado: [ 0]
+
+	Flor 152
+		Color: (0, 128, 0)
+		Posicion: (88, 68)
+		Polen recolectado: [ 0]
+
+	Flor 153
+		Color: (255, 255, 0)
+		Posicion: (68, 49)
+		Polen recolectado: [ 22]
+
+	Flor 154
+		Color: (255, 0, 0)
+		Posicion: (83, 56)
+		Polen recolectado: [ 6]
+
+	Flor 155
+		Color: (128, 128, 128)
+		Posicion: (38, 71)
+		Polen recolectado: [ 6]
+
+	Flor 156
+		Color: (128, 0, 128)
+		Posicion: (92, 35)
+		Polen recolectado: [ 10]
+
+	Flor 157
+		Color: (128, 0, 128)
+		Posicion: (55, 94)
+		Polen recolectado: [ 0]
+
+	Flor 158
+		Color: (255, 128, 0)
+		Posicion: (49, 74)
+		Polen recolectado: [ 5]
+
+	Flor 159
+		Color: (0, 255, 255)
+		Posicion: (16, 71)
+		Polen recolectado: [ 4]
+
+	Flor 160
+		Color: (255, 255, 255)
+		Posicion: (73, 52)
+		Polen recolectado: [ 7]
+
+Generacion 3
+
+	Flor 161
+		Color: (0, 255, 255)
+		Posicion: (90, 92)
+		Polen recolectado: [ 7]
+
+	Flor 162
+		Color: (0, 255, 255)
+		Posicion: (71, 6)
+		Polen recolectado: [ 26]
+
+	Flor 163
+		Color: (255, 255, 255)
+		Posicion: (37, 56)
+		Polen recolectado: [ 24]
+
+	Flor 164
+		Color: (0, 128, 0)
+		Posicion: (17, 21)
+		Polen recolectado: [ 36]
+
+	Flor 165
+		Color: (0, 255, 0)
+		Posicion: (48, 13)
+		Polen recolectado: [ 67]
+
+	Flor 166
+		Color: (255, 255, 0)
+		Posicion: (6, 52)
+		Polen recolectado: [ 55]
+
+	Flor 167
+		Color: (0, 128, 0)
+		Posicion: (41, 54)
+		Polen recolectado: [ 74]
+
+	Flor 168
+		Color: (0, 128, 0)
+		Posicion: (88, 67)
+		Polen recolectado: [ 51]
+
+	Flor 169
+		Color: (128, 0, 128)
+		Posicion: (70, 95)
+		Polen recolectado: [ 56]
+
+	Flor 170
+		Color: (0, 128, 0)
+		Posicion: (51, 63)
+		Polen recolectado: [ 59]
+
+	Flor 171
+		Color: (0, 255, 255)
+		Posicion: (93, 37)
+		Polen recolectado: [ 49]
+
+	Flor 172
+		Color: (255, 255, 255)
+		Posicion: (24, 2)
+		Polen recolectado: [ 33]
+
+	Flor 173
+		Color: (0, 255, 255)
+		Posicion: (84, 86)
+		Polen recolectado: [ 36]
+
+	Flor 174
+		Color: (0, 128, 0)
+		Posicion: (34, 33)
+		Polen recolectado: [ 46]
+
+	Flor 175
+		Color: (0, 128, 0)
+		Posicion: (70, 35)
+		Polen recolectado: [ 88]
+
+	Flor 176
+		Color: (255, 0, 0)
+		Posicion: (89, 77)
+		Polen recolectado: [ 60]
+
+	Flor 177
+		Color: (0, 128, 0)
+		Posicion: (73, 88)
+		Polen recolectado: [ 48]
+
+	Flor 178
+		Color: (128, 128, 128)
+		Posicion: (80, 22)
+		Polen recolectado: [ 57]
+
+	Flor 179
+		Color: (255, 255, 0)
+		Posicion: (66, 97)
+		Polen recolectado: [ 54]
+
+	Flor 180
+		Color: (255, 255, 255)
+		Posicion: (16, 13)
+		Polen recolectado: [ 52]
+
+	Flor 181
+		Color: (255, 255, 0)
+		Posicion: (31, 16)
+		Polen recolectado: [ 40]
+
+	Flor 182
+		Color: (128, 255, 128)
+		Posicion: (82, 54)
+		Polen recolectado: [ 60]
+
+	Flor 183
+		Color: (0, 128, 128)
+		Posicion: (86, 43)
+		Polen recolectado: [ 47]
+
+	Flor 184
+		Color: (0, 128, 0)
+		Posicion: (49, 53)
+		Polen recolectado: [ 83]
+
+	Flor 185
+		Color: (0, 0, 255)
+		Posicion: (53, 21)
+		Polen recolectado: [ 113]
+
+	Flor 186
+		Color: (255, 255, 0)
+		Posicion: (62, 75)
+		Polen recolectado: [ 90]
+
+	Flor 187
+		Color: (255, 128, 128)
+		Posicion: (52, 82)
+		Polen recolectado: [ 78]
+
+	Flor 188
+		Color: (128, 0, 128)
+		Posicion: (50, 82)
+		Polen recolectado: [ 81]
+
+	Flor 189
+		Color: (255, 255, 255)
+		Posicion: (6, 71)
+		Polen recolectado: [ 92]
+
+	Flor 190
+		Color: (255, 255, 0)
+		Posicion: (40, 11)
+		Polen recolectado: [ 80]
+
+	Flor 191
+		Color: (255, 255, 0)
+		Posicion: (34, 57)
+		Polen recolectado: [ 1]
+
+	Flor 192
+		Color: (255, 0, 0)
+		Posicion: (1, 89)
+		Polen recolectado: [ 0]
+
+	Flor 193
+		Color: (255, 128, 0)
+		Posicion: (78, 18)
+		Polen recolectado: [ 29]
+
+	Flor 194
+		Color: (128, 0, 128)
+		Posicion: (34, 16)
+		Polen recolectado: [ 0]
+
+	Flor 195
+		Color: (255, 0, 0)
+		Posicion: (68, 87)
+		Polen recolectado: [ 3]
+
+	Flor 196
+		Color: (0, 128, 255)
+		Posicion: (87, 4)
+		Polen recolectado: [ 0]
+
+	Flor 197
+		Color: (0, 128, 0)
+		Posicion: (75, 44)
+		Polen recolectado: [ 27]
+
+	Flor 198
+		Color: (0, 128, 0)
+		Posicion: (31, 31)
+		Polen recolectado: [ 24]
+
+	Flor 199
+		Color: (255, 255, 0)
+		Posicion: (84, 58)
+		Polen recolectado: [ 12]
+
+	Flor 200
+		Color: (128, 128, 128)
+		Posicion: (9, 7)
+		Polen recolectado: [ 15]
+
+	Flor 201
+		Color: (0, 128, 0)
+		Posicion: (32, 21)
+		Polen recolectado: [ 12]
+
+	Flor 202
+		Color: (255, 255, 0)
+		Posicion: (26, 50)
+		Polen recolectado: [ 33]
+
+	Flor 203
+		Color: (0, 255, 255)
+		Posicion: (50, 11)
+		Polen recolectado: [ 14]
+
+	Flor 204
+		Color: (128, 128, 128)
+		Posicion: (43, 65)
+		Polen recolectado: [ 23]
+
+	Flor 205
+		Color: (0, 0, 0)
+		Posicion: (79, 9)
+		Polen recolectado: [ 23]
+
+	Flor 206
+		Color: (255, 0, 0)
+		Posicion: (53, 26)
+		Polen recolectado: [ 32]
+
+	Flor 207
+		Color: (0, 255, 255)
+		Posicion: (8, 66)
+		Polen recolectado: [ 24]
+
+	Flor 208
+		Color: (128, 128, 128)
+		Posicion: (92, 14)
+		Polen recolectado: [ 38]
+
+	Flor 209
+		Color: (128, 0, 128)
+		Posicion: (17, 17)
+		Polen recolectado: [ 2]
+
+	Flor 210
+		Color: (0, 255, 255)
+		Posicion: (22, 3)
+		Polen recolectado: [ 0]
+
+	Flor 211
+		Color: (0, 128, 128)
+		Posicion: (56, 48)
+		Polen recolectado: [ 58]
+
+	Flor 212
+		Color: (255, 0, 0)
+		Posicion: (57, 28)
+		Polen recolectado: [ 13]
+
+	Flor 213
+		Color: (0, 255, 255)
+		Posicion: (10, 12)
+		Polen recolectado: [ 26]
+
+	Flor 214
+		Color: (255, 255, 0)
+		Posicion: (50, 87)
+		Polen recolectado: [ 0]
+
+	Flor 215
+		Color: (0, 255, 255)
+		Posicion: (66, 86)
+		Polen recolectado: [ 0]
+
+	Flor 216
+		Color: (0, 0, 255)
+		Posicion: (96, 99)
+		Polen recolectado: [ 0]
+
+	Flor 217
+		Color: (0, 128, 0)
+		Posicion: (27, 8)
+		Polen recolectado: [ 0]
+
+	Flor 218
+		Color: (0, 255, 255)
+		Posicion: (12, 89)
+		Polen recolectado: [ 0]
+
+	Flor 219
+		Color: (255, 255, 128)
+		Posicion: (7, 24)
+		Polen recolectado: [ 0]
+
+	Flor 220
+		Color: (255, 255, 0)
+		Posicion: (16, 17)
+		Polen recolectado: [ 23]
+
+	Flor 221
+		Color: (255, 128, 0)
+		Posicion: (42, 79)
+		Polen recolectado: [ 7]
+
+	Flor 222
+		Color: (255, 255, 255)
+		Posicion: (7, 63)
+		Polen recolectado: [ 18]
+
+	Flor 223
+		Color: (255, 0, 0)
+		Posicion: (41, 14)
+		Polen recolectado: [ 0]
+
+	Flor 224
+		Color: (0, 255, 255)
+		Posicion: (41, 69)
+		Polen recolectado: [ 16]
+
+	Flor 225
+		Color: (0, 0, 255)
+		Posicion: (11, 98)
+		Polen recolectado: [ 0]
+
+	Flor 226
+		Color: (128, 255, 128)
+		Posicion: (27, 40)
+		Polen recolectado: [ 20]
+
+	Flor 227
+		Color: (255, 255, 255)
+		Posicion: (55, 14)
+		Polen recolectado: [ 21]
+
+	Flor 228
+		Color: (0, 128, 0)
+		Posicion: (56, 11)
+		Polen recolectado: [ 39]
+
+	Flor 229
+		Color: (0, 255, 255)
+		Posicion: (74, 79)
+		Polen recolectado: [ 0]
+
+	Flor 230
+		Color: (128, 128, 128)
+		Posicion: (79, 5)
+		Polen recolectado: [ 11]
+
+	Flor 231
+		Color: (255, 255, 0)
+		Posicion: (57, 98)
+		Polen recolectado: [ 0]
+
+	Flor 232
+		Color: (0, 128, 0)
+		Posicion: (88, 68)
+		Polen recolectado: [ 5]
+
+	Flor 233
+		Color: (0, 128, 0)
+		Posicion: (68, 49)
+		Polen recolectado: [ 38]
+
+	Flor 234
+		Color: (255, 0, 0)
+		Posicion: (83, 56)
+		Polen recolectado: [ 21]
+
+	Flor 235
+		Color: (128, 128, 128)
+		Posicion: (38, 71)
+		Polen recolectado: [ 24]
+
+	Flor 236
+		Color: (128, 255, 128)
+		Posicion: (92, 35)
+		Polen recolectado: [ 6]
+
+	Flor 237
+		Color: (128, 0, 128)
+		Posicion: (55, 94)
+		Polen recolectado: [ 0]
+
+	Flor 238
+		Color: (255, 128, 255)
+		Posicion: (49, 74)
+		Polen recolectado: [ 9]
+
+	Flor 239
+		Color: (0, 255, 255)
+		Posicion: (16, 71)
+		Polen recolectado: [ 9]
+
+	Flor 240
+		Color: (255, 255, 255)
+		Posicion: (73, 52)
+		Polen recolectado: [ 0]
+
+Generacion 4
+
+	Flor 241
+		Color: (128, 255, 255)
+		Posicion: (90, 92)
+		Polen recolectado: [ 0]
+
+	Flor 242
+		Color: (0, 255, 255)
+		Posicion: (71, 6)
+		Polen recolectado: [ 6]
+
+	Flor 243
+		Color: (255, 255, 255)
+		Posicion: (37, 56)
+		Polen recolectado: [ 41]
+
+	Flor 244
+		Color: (0, 128, 0)
+		Posicion: (17, 21)
+		Polen recolectado: [ 51]
+
+	Flor 245
+		Color: (0, 255, 0)
+		Posicion: (48, 13)
+		Polen recolectado: [ 20]
+
+	Flor 246
+		Color: (255, 255, 0)
+		Posicion: (6, 52)
+		Polen recolectado: [ 50]
+
+	Flor 247
+		Color: (0, 128, 0)
+		Posicion: (41, 54)
+		Polen recolectado: [ 42]
+
+	Flor 248
+		Color: (0, 128, 0)
+		Posicion: (88, 67)
+		Polen recolectado: [ 42]
+
+	Flor 249
+		Color: (128, 0, 128)
+		Posicion: (70, 95)
+		Polen recolectado: [ 67]
+
+	Flor 250
+		Color: (0, 128, 0)
+		Posicion: (51, 63)
+		Polen recolectado: [ 27]
+
+	Flor 251
+		Color: (0, 255, 255)
+		Posicion: (93, 37)
+		Polen recolectado: [ 40]
+
+	Flor 252
+		Color: (255, 255, 255)
+		Posicion: (24, 2)
+		Polen recolectado: [ 11]
+
+	Flor 253
+		Color: (0, 255, 255)
+		Posicion: (84, 86)
+		Polen recolectado: [ 28]
+
+	Flor 254
+		Color: (0, 128, 0)
+		Posicion: (34, 33)
+		Polen recolectado: [ 66]
+
+	Flor 255
+		Color: (0, 128, 0)
+		Posicion: (70, 35)
+		Polen recolectado: [ 44]
+
+	Flor 256
+		Color: (255, 0, 0)
+		Posicion: (89, 77)
+		Polen recolectado: [ 25]
+
+	Flor 257
+		Color: (0, 128, 0)
+		Posicion: (73, 88)
+		Polen recolectado: [ 16]
+
+	Flor 258
+		Color: (128, 128, 128)
+		Posicion: (80, 22)
+		Polen recolectado: [ 59]
+
+	Flor 259
+		Color: (255, 255, 0)
+		Posicion: (66, 97)
+		Polen recolectado: [ 18]
+
+	Flor 260
+		Color: (255, 255, 255)
+		Posicion: (16, 13)
+		Polen recolectado: [ 54]
+
+	Flor 261
+		Color: (255, 255, 0)
+		Posicion: (31, 16)
+		Polen recolectado: [ 94]
+
+	Flor 262
+		Color: (128, 255, 128)
+		Posicion: (82, 54)
+		Polen recolectado: [ 53]
+
+	Flor 263
+		Color: (0, 128, 128)
+		Posicion: (86, 43)
+		Polen recolectado: [ 6]
+
+	Flor 264
+		Color: (0, 128, 0)
+		Posicion: (49, 53)
+		Polen recolectado: [ 14]
+
+	Flor 265
+		Color: (0, 0, 255)
+		Posicion: (53, 21)
+		Polen recolectado: [ 14]
+
+	Flor 266
+		Color: (255, 255, 0)
+		Posicion: (62, 75)
+		Polen recolectado: [ 12]
+
+	Flor 267
+		Color: (255, 128, 128)
+		Posicion: (52, 82)
+		Polen recolectado: [ 0]
+
+	Flor 268
+		Color: (128, 0, 128)
+		Posicion: (50, 82)
+		Polen recolectado: [ 18]
+
+	Flor 269
+		Color: (255, 255, 255)
+		Posicion: (6, 71)
+		Polen recolectado: [ 29]
+
+	Flor 270
+		Color: (255, 255, 0)
+		Posicion: (40, 11)
+		Polen recolectado: [ 19]
+
+	Flor 271
+		Color: (255, 255, 0)
+		Posicion: (34, 57)
+		Polen recolectado: [ 45]
+
+	Flor 272
+		Color: (255, 0, 0)
+		Posicion: (1, 89)
+		Polen recolectado: [ 31]
+
+	Flor 273
+		Color: (255, 128, 0)
+		Posicion: (78, 18)
+		Polen recolectado: [ 41]
+
+	Flor 274
+		Color: (128, 0, 128)
+		Posicion: (34, 16)
+		Polen recolectado: [ 77]
+
+	Flor 275
+		Color: (0, 0, 0)
+		Posicion: (68, 87)
+		Polen recolectado: [ 0]
+
+	Flor 276
+		Color: (0, 128, 255)
+		Posicion: (87, 4)
+		Polen recolectado: [ 0]
+
+	Flor 277
+		Color: (0, 128, 128)
+		Posicion: (75, 44)
+		Polen recolectado: [ 50]
+
+	Flor 278
+		Color: (0, 128, 0)
+		Posicion: (31, 31)
+		Polen recolectado: [ 28]
+
+	Flor 279
+		Color: (255, 255, 0)
+		Posicion: (84, 58)
+		Polen recolectado: [ 37]
+
+	Flor 280
+		Color: (128, 128, 128)
+		Posicion: (9, 7)
+		Polen recolectado: [ 0]
+
+	Flor 281
+		Color: (0, 128, 0)
+		Posicion: (32, 21)
+		Polen recolectado: [ 0]
+
+	Flor 282
+		Color: (255, 255, 0)
+		Posicion: (26, 50)
+		Polen recolectado: [ 65]
+
+	Flor 283
+		Color: (0, 255, 255)
+		Posicion: (50, 11)
+		Polen recolectado: [ 38]
+
+	Flor 284
+		Color: (128, 128, 128)
+		Posicion: (43, 65)
+		Polen recolectado: [ 0]
+
+	Flor 285
+		Color: (0, 0, 0)
+		Posicion: (79, 9)
+		Polen recolectado: [ 1]
+
+	Flor 286
+		Color: (255, 0, 0)
+		Posicion: (53, 26)
+		Polen recolectado: [ 20]
+
+	Flor 287
+		Color: (0, 255, 255)
+		Posicion: (8, 66)
+		Polen recolectado: [ 0]
+
+	Flor 288
+		Color: (128, 128, 128)
+		Posicion: (92, 14)
+		Polen recolectado: [ 13]
+
+	Flor 289
+		Color: (0, 0, 255)
+		Posicion: (17, 17)
+		Polen recolectado: [ 31]
+
+	Flor 290
+		Color: (0, 255, 255)
+		Posicion: (22, 3)
+		Polen recolectado: [ 0]
+
+	Flor 291
+		Color: (0, 128, 128)
+		Posicion: (56, 48)
+		Polen recolectado: [ 29]
+
+	Flor 292
+		Color: (255, 128, 0)
+		Posicion: (57, 28)
+		Polen recolectado: [ 32]
+
+	Flor 293
+		Color: (0, 255, 255)
+		Posicion: (10, 12)
+		Polen recolectado: [ 10]
+
+	Flor 294
+		Color: (255, 255, 0)
+		Posicion: (50, 87)
+		Polen recolectado: [ 0]
+
+	Flor 295
+		Color: (0, 255, 255)
+		Posicion: (66, 86)
+		Polen recolectado: [ 0]
+
+	Flor 296
+		Color: (0, 0, 255)
+		Posicion: (96, 99)
+		Polen recolectado: [ 0]
+
+	Flor 297
+		Color: (0, 128, 0)
+		Posicion: (27, 8)
+		Polen recolectado: [ 0]
+
+	Flor 298
+		Color: (0, 255, 255)
+		Posicion: (12, 89)
+		Polen recolectado: [ 0]
+
+	Flor 299
+		Color: (255, 255, 128)
+		Posicion: (7, 24)
+		Polen recolectado: [ 47]
+
+	Flor 300
+		Color: (255, 255, 0)
+		Posicion: (16, 17)
+		Polen recolectado: [ 14]
+
+	Flor 301
+		Color: (255, 128, 0)
+		Posicion: (42, 79)
+		Polen recolectado: [ 30]
+
+	Flor 302
+		Color: (255, 255, 255)
+		Posicion: (7, 63)
+		Polen recolectado: [ 15]
+
+	Flor 303
+		Color: (255, 0, 0)
+		Posicion: (41, 14)
+		Polen recolectado: [ 20]
+
+	Flor 304
+		Color: (255, 255, 0)
+		Posicion: (41, 69)
+		Polen recolectado: [ 18]
+
+	Flor 305
+		Color: (0, 0, 255)
+		Posicion: (11, 98)
+		Polen recolectado: [ 0]
+
+	Flor 306
+		Color: (128, 255, 0)
+		Posicion: (27, 40)
+		Polen recolectado: [ 26]
+
+	Flor 307
+		Color: (255, 255, 0)
+		Posicion: (55, 14)
+		Polen recolectado: [ 0]
+
+	Flor 308
+		Color: (0, 128, 0)
+		Posicion: (56, 11)
+		Polen recolectado: [ 9]
+
+	Flor 309
+		Color: (0, 255, 255)
+		Posicion: (74, 79)
+		Polen recolectado: [ 0]
+
+	Flor 310
+		Color: (128, 0, 128)
+		Posicion: (79, 5)
+		Polen recolectado: [ 0]
+
+	Flor 311
+		Color: (255, 255, 0)
+		Posicion: (57, 98)
+		Polen recolectado: [ 0]
+
+	Flor 312
+		Color: (0, 128, 0)
+		Posicion: (88, 68)
+		Polen recolectado: [ 0]
+
+	Flor 313
+		Color: (0, 255, 0)
+		Posicion: (68, 49)
+		Polen recolectado: [ 14]
+
+	Flor 314
+		Color: (0, 0, 255)
+		Posicion: (83, 56)
+		Polen recolectado: [ 14]
+
+	Flor 315
+		Color: (0, 128, 128)
+		Posicion: (38, 71)
+		Polen recolectado: [ 0]
+
+	Flor 316
+		Color: (0, 255, 128)
+		Posicion: (92, 35)
+		Polen recolectado: [ 4]
+
+	Flor 317
+		Color: (128, 0, 128)
+		Posicion: (55, 94)
+		Polen recolectado: [ 0]
+
+	Flor 318
+		Color: (255, 128, 255)
+		Posicion: (49, 74)
+		Polen recolectado: [ 13]
+
+	Flor 319
+		Color: (128, 128, 128)
+		Posicion: (16, 71)
+		Polen recolectado: [ 0]
+
+	Flor 320
+		Color: (255, 255, 255)
+		Posicion: (73, 52)
+		Polen recolectado: [ 19]
+
+Generacion 1
+
+	Flor 1
+		Color: (0, 0, 255)
+		Posicion: (5, 87)
+		Polen recolectado: 6
+
+	Flor 2
+		Color: (128, 0, 128)
+		Posicion: (71, 82)
+		Polen recolectado: 1
+
+	Flor 3
+		Color: (0, 128, 0)
+		Posicion: (82, 41)
+		Polen recolectado: 2
+
+	Flor 4
+		Color: (255, 0, 0)
+		Posicion: (71, 56)
+		Polen recolectado: 11
+
+	Flor 5
+		Color: (255, 255, 0)
+		Posicion: (91, 21)
+		Polen recolectado: 4
+
+	Flor 6
+		Color: (255, 0, 0)
+		Posicion: (37, 54)
+		Polen recolectado: 15
+
+	Flor 7
+		Color: (128, 128, 128)
+		Posicion: (40, 0)
+		Polen recolectado: 6
+
+	Flor 8
+		Color: (255, 255, 255)
+		Posicion: (1, 57)
+		Polen recolectado: 7
+
+	Flor 9
+		Color: (255, 255, 0)
+		Posicion: (20, 4)
+		Polen recolectado: 8
+
+	Flor 10
+		Color: (0, 255, 255)
+		Posicion: (0, 73)
+		Polen recolectado: 11
+
+	Flor 11
+		Color: (255, 0, 0)
+		Posicion: (7, 7)
+		Polen recolectado: 1
+
+	Flor 12
+		Color: (255, 0, 0)
+		Posicion: (39, 80)
+		Polen recolectado: 3
+
+	Flor 13
+		Color: (128, 128, 128)
+		Posicion: (19, 67)
+		Polen recolectado: 1
+
+	Flor 14
+		Color: (255, 255, 255)
+		Posicion: (48, 96)
+		Polen recolectado: 0
+
+	Flor 15
+		Color: (0, 0, 255)
+		Posicion: (56, 3)
+		Polen recolectado: 0
+
+	Flor 16
+		Color: (128, 128, 128)
+		Posicion: (67, 65)
+		Polen recolectado: 0
+
+	Flor 17
+		Color: (255, 255, 0)
+		Posicion: (70, 40)
+		Polen recolectado: 3
+
+	Flor 18
+		Color: (0, 0, 255)
+		Posicion: (8, 66)
+		Polen recolectado: 9
+
+	Flor 19
+		Color: (128, 0, 128)
+		Posicion: (54, 95)
+		Polen recolectado: 0
+
+	Flor 20
+		Color: (0, 255, 255)
+		Posicion: (6, 84)
+		Polen recolectado: 11
+
+	Flor 21
+		Color: (255, 255, 0)
+		Posicion: (46, 68)
+		Polen recolectado: 6
+
+	Flor 22
+		Color: (0, 255, 255)
+		Posicion: (28, 48)
+		Polen recolectado: 6
+
+	Flor 23
+		Color: (0, 128, 0)
+		Posicion: (92, 44)
+		Polen recolectado: 0
+
+	Flor 24
+		Color: (0, 255, 255)
+		Posicion: (38, 14)
+		Polen recolectado: 4
+
+	Flor 25
+		Color: (0, 0, 255)
+		Posicion: (24, 48)
+		Polen recolectado: 2
+
+	Flor 26
+		Color: (255, 255, 255)
+		Posicion: (46, 70)
+		Polen recolectado: 10
+
+	Flor 27
+		Color: (0, 128, 0)
+		Posicion: (58, 11)
+		Polen recolectado: 0
+
+	Flor 28
+		Color: (0, 255, 255)
+		Posicion: (35, 67)
+		Polen recolectado: 6
+
+	Flor 29
+		Color: (0, 0, 255)
+		Posicion: (21, 82)
+		Polen recolectado: 0
+
+	Flor 30
+		Color: (255, 255, 255)
+		Posicion: (52, 22)
+		Polen recolectado: 0
+
+Generacion 2
+
+	Flor 31
+		Color: (255, 0, 0)
+		Posicion: (5, 87)
+		Polen recolectado: 11
+
+	Flor 32
+		Color: (128, 0, 255)
+		Posicion: (71, 82)
+		Polen recolectado: 1
+
+	Flor 33
+		Color: (0, 0, 0)
+		Posicion: (82, 41)
+		Polen recolectado: 2
+
+	Flor 34
+		Color: (255, 255, 0)
+		Posicion: (71, 56)
+		Polen recolectado: 12
+
+	Flor 35
+		Color: (255, 0, 0)
+		Posicion: (91, 21)
+		Polen recolectado: 4
+
+	Flor 36
+		Color: (255, 0, 0)
+		Posicion: (37, 54)
+		Polen recolectado: 1
+
+	Flor 37
+		Color: (128, 128, 0)
+		Posicion: (40, 0)
+		Polen recolectado: 0
+
+	Flor 38
+		Color: (128, 255, 128)
+		Posicion: (1, 57)
+		Polen recolectado: 0
+
+	Flor 39
+		Color: (0, 0, 0)
+		Posicion: (20, 4)
+		Polen recolectado: 0
+
+	Flor 40
+		Color: (0, 255, 0)
+		Posicion: (0, 73)
+		Polen recolectado: 7
+
+	Flor 41
+		Color: (255, 255, 255)
+		Posicion: (7, 7)
+		Polen recolectado: 2
+
+	Flor 42
+		Color: (128, 0, 128)
+		Posicion: (39, 80)
+		Polen recolectado: 5
+
+	Flor 43
+		Color: (128, 0, 255)
+		Posicion: (19, 67)
+		Polen recolectado: 6
+
+	Flor 44
+		Color: (255, 255, 255)
+		Posicion: (48, 96)
+		Polen recolectado: 0
+
+	Flor 45
+		Color: (0, 0, 255)
+		Posicion: (56, 3)
+		Polen recolectado: 0
+
+	Flor 46
+		Color: (128, 128, 128)
+		Posicion: (67, 65)
+		Polen recolectado: 0
+
+	Flor 47
+		Color: (255, 255, 255)
+		Posicion: (70, 40)
+		Polen recolectado: 0
+
+	Flor 48
+		Color: (255, 0, 0)
+		Posicion: (8, 66)
+		Polen recolectado: 2
+
+	Flor 49
+		Color: (128, 0, 128)
+		Posicion: (54, 95)
+		Polen recolectado: 0
+
+	Flor 50
+		Color: (0, 255, 0)
+		Posicion: (6, 84)
+		Polen recolectado: 4
+
+	Flor 51
+		Color: (255, 255, 255)
+		Posicion: (46, 68)
+		Polen recolectado: 10
+
+	Flor 52
+		Color: (0, 255, 255)
+		Posicion: (28, 48)
+		Polen recolectado: 4
+
+	Flor 53
+		Color: (0, 128, 0)
+		Posicion: (92, 44)
+		Polen recolectado: 0
+
+	Flor 54
+		Color: (0, 255, 255)
+		Posicion: (38, 14)
+		Polen recolectado: 5
+
+	Flor 55
+		Color: (0, 0, 255)
+		Posicion: (24, 48)
+		Polen recolectado: 4
+
+	Flor 56
+		Color: (0, 255, 255)
+		Posicion: (46, 70)
+		Polen recolectado: 0
+
+	Flor 57
+		Color: (0, 128, 0)
+		Posicion: (58, 11)
+		Polen recolectado: 0
+
+	Flor 58
+		Color: (0, 255, 255)
+		Posicion: (35, 67)
+		Polen recolectado: 3
+
+	Flor 59
+		Color: (0, 0, 255)
+		Posicion: (21, 82)
+		Polen recolectado: 8
+
+	Flor 60
+		Color: (255, 255, 255)
+		Posicion: (52, 22)
+		Polen recolectado: 1
+
+Generacion 3
+
+	Flor 61
+		Color: (255, 0, 0)
+		Posicion: (5, 87)
+		Polen recolectado: 1
+
+	Flor 62
+		Color: (128, 0, 255)
+		Posicion: (71, 82)
+		Polen recolectado: 3
+
+	Flor 63
+		Color: (0, 0, 0)
+		Posicion: (82, 41)
+		Polen recolectado: 4
+
+	Flor 64
+		Color: (255, 255, 0)
+		Posicion: (71, 56)
+		Polen recolectado: 16
+
+	Flor 65
+		Color: (255, 0, 0)
+		Posicion: (91, 21)
+		Polen recolectado: 8
+
+	Flor 66
+		Color: (0, 255, 255)
+		Posicion: (37, 54)
+		Polen recolectado: 12
+
+	Flor 67
+		Color: (128, 128, 0)
+		Posicion: (40, 0)
+		Polen recolectado: 6
+
+	Flor 68
+		Color: (128, 255, 128)
+		Posicion: (1, 57)
+		Polen recolectado: 16
+
+	Flor 69
+		Color: (0, 0, 0)
+		Posicion: (20, 4)
+		Polen recolectado: 8
+
+	Flor 70
+		Color: (0, 255, 0)
+		Posicion: (0, 73)
+		Polen recolectado: 2
+
+	Flor 71
+		Color: (255, 255, 255)
+		Posicion: (7, 7)
+		Polen recolectado: 5
+
+	Flor 72
+		Color: (128, 0, 128)
+		Posicion: (39, 80)
+		Polen recolectado: 5
+
+	Flor 73
+		Color: (255, 0, 255)
+		Posicion: (19, 67)
+		Polen recolectado: 13
+
+	Flor 74
+		Color: (255, 255, 255)
+		Posicion: (48, 96)
+		Polen recolectado: 0
+
+	Flor 75
+		Color: (0, 0, 255)
+		Posicion: (56, 3)
+		Polen recolectado: 0
+
+	Flor 76
+		Color: (128, 128, 128)
+		Posicion: (67, 65)
+		Polen recolectado: 11
+
+	Flor 77
+		Color: (255, 255, 255)
+		Posicion: (70, 40)
+		Polen recolectado: 4
+
+	Flor 78
+		Color: (0, 255, 0)
+		Posicion: (8, 66)
+		Polen recolectado: 8
+
+	Flor 79
+		Color: (128, 0, 128)
+		Posicion: (54, 95)
+		Polen recolectado: 0
+
+	Flor 80
+		Color: (255, 0, 0)
+		Posicion: (6, 84)
+		Polen recolectado: 4
+
+	Flor 81
+		Color: (0, 255, 0)
+		Posicion: (46, 68)
+		Polen recolectado: 6
+
+	Flor 82
+		Color: (0, 255, 255)
+		Posicion: (28, 48)
+		Polen recolectado: 2
+
+	Flor 83
+		Color: (0, 128, 0)
+		Posicion: (92, 44)
+		Polen recolectado: 0
+
+	Flor 84
+		Color: (0, 255, 255)
+		Posicion: (38, 14)
+		Polen recolectado: 3
+
+	Flor 85
+		Color: (255, 0, 255)
+		Posicion: (24, 48)
+		Polen recolectado: 0
+
+	Flor 86
+		Color: (0, 255, 255)
+		Posicion: (46, 70)
+		Polen recolectado: 12
+
+	Flor 87
+		Color: (0, 128, 0)
+		Posicion: (58, 11)
+		Polen recolectado: 0
+
+	Flor 88
+		Color: (0, 255, 0)
+		Posicion: (35, 67)
+		Polen recolectado: 0
+
+	Flor 89
+		Color: (0, 0, 255)
+		Posicion: (21, 82)
+		Polen recolectado: 3
+
+	Flor 90
+		Color: (255, 255, 255)
+		Posicion: (52, 22)
+		Polen recolectado: 1
+
+Generacion 4
+
+	Flor 91
+		Color: (255, 0, 0)
+		Posicion: (5, 87)
+		Polen recolectado: 7
+
+	Flor 92
+		Color: (128, 0, 0)
+		Posicion: (71, 82)
+		Polen recolectado: 3
+
+	Flor 93
+		Color: (128, 0, 255)
+		Posicion: (82, 41)
+		Polen recolectado: 6
+
+	Flor 94
+		Color: (255, 255, 0)
+		Posicion: (71, 56)
+		Polen recolectado: 7
+
+	Flor 95
+		Color: (255, 0, 255)
+		Posicion: (91, 21)
+		Polen recolectado: 8
+
+	Flor 96
+		Color: (0, 0, 0)
+		Posicion: (37, 54)
+		Polen recolectado: 7
+
+	Flor 97
+		Color: (128, 128, 0)
+		Posicion: (40, 0)
+		Polen recolectado: 0
+
+	Flor 98
+		Color: (128, 255, 255)
+		Posicion: (1, 57)
+		Polen recolectado: 9
+
+	Flor 99
+		Color: (0, 0, 128)
+		Posicion: (20, 4)
+		Polen recolectado: 0
+
+	Flor 100
+		Color: (0, 255, 0)
+		Posicion: (0, 73)
+		Polen recolectado: 11
+
+	Flor 101
+		Color: (255, 255, 255)
+		Posicion: (7, 7)
+		Polen recolectado: 0
+
+	Flor 102
+		Color: (0, 255, 128)
+		Posicion: (39, 80)
+		Polen recolectado: 10
+
+	Flor 103
+		Color: (255, 0, 255)
+		Posicion: (19, 67)
+		Polen recolectado: 5
+
+	Flor 104
+		Color: (255, 255, 255)
+		Posicion: (48, 96)
+		Polen recolectado: 0
+
+	Flor 105
+		Color: (0, 0, 255)
+		Posicion: (56, 3)
+		Polen recolectado: 0
+
+	Flor 106
+		Color: (0, 255, 128)
+		Posicion: (67, 65)
+		Polen recolectado: 13
+
+	Flor 107
+		Color: (255, 255, 255)
+		Posicion: (70, 40)
+		Polen recolectado: 0
+
+	Flor 108
+		Color: (0, 255, 0)
+		Posicion: (8, 66)
+		Polen recolectado: 5
+
+	Flor 109
+		Color: (128, 0, 128)
+		Posicion: (54, 95)
+		Polen recolectado: 0
+
+	Flor 110
+		Color: (255, 0, 0)
+		Posicion: (6, 84)
+		Polen recolectado: 14
+
+	Flor 111
+		Color: (0, 0, 0)
+		Posicion: (46, 68)
+		Polen recolectado: 8
+
+	Flor 112
+		Color: (0, 255, 255)
+		Posicion: (28, 48)
+		Polen recolectado: 0
+
+	Flor 113
+		Color: (0, 128, 0)
+		Posicion: (92, 44)
+		Polen recolectado: 0
+
+	Flor 114
+		Color: (0, 255, 255)
+		Posicion: (38, 14)
+		Polen recolectado: 0
+
+	Flor 115
+		Color: (255, 0, 255)
+		Posicion: (24, 48)
+		Polen recolectado: 0
+
+	Flor 116
+		Color: (0, 255, 255)
+		Posicion: (46, 70)
+		Polen recolectado: 17
+
+	Flor 117
+		Color: (0, 128, 0)
+		Posicion: (58, 11)
+		Polen recolectado: 0
+
+	Flor 118
+		Color: (0, 255, 0)
+		Posicion: (35, 67)
+		Polen recolectado: 9
+
+	Flor 119
+		Color: (0, 255, 0)
+		Posicion: (21, 82)
+		Polen recolectado: 16
+
+	Flor 120
+		Color: (255, 255, 255)
+		Posicion: (52, 22)
+		Polen recolectado: 0
+
+Generacion 1
+
+	Flor 1
+		Color: (0, 255, 255)
+		Posicion: (17, 2)
+		Polen recolectado: 0
+
+Generacion 2
+
+	Flor 2
+		Color: (0, 255, 255)
+		Posicion: (17, 2)
+		Polen recolectado: 0
+
+Generacion 3
+
+	Flor 3
+		Color: (0, 255, 255)
+		Posicion: (17, 2)
+		Polen recolectado: 0
+
+Generacion 4
+
+	Flor 4
+		Color: (0, 255, 255)
+		Posicion: (17, 2)
+		Polen recolectado: 0
+
+Generacion 1
+
+	Flor 1
+		Color: (255, 255, 255)
+		Posicion: (2, 53)
+		Polen recolectado: 0
+
+	Flor 2
+		Color: (255, 255, 0)
+		Posicion: (17, 97)
+		Polen recolectado: 5
+
+	Flor 3
+		Color: (255, 0, 0)
+		Posicion: (48, 98)
+		Polen recolectado: 10
+
+	Flor 4
+		Color: (0, 0, 255)
+		Posicion: (47, 98)
+		Polen recolectado: 12
+
+	Flor 5
+		Color: (0, 255, 255)
+		Posicion: (85, 92)
+		Polen recolectado: 12
+
+	Flor 6
+		Color: (0, 0, 255)
+		Posicion: (88, 64)
+		Polen recolectado: 10
+
+	Flor 7
+		Color: (0, 255, 255)
+		Posicion: (88, 74)
+		Polen recolectado: 6
+
+	Flor 8
+		Color: (128, 0, 128)
+		Posicion: (77, 49)
+		Polen recolectado: 6
+
+	Flor 9
+		Color: (0, 0, 255)
+		Posicion: (68, 46)
+		Polen recolectado: 4
+
+	Flor 10
+		Color: (128, 128, 128)
+		Posicion: (34, 53)
+		Polen recolectado: 0
+
+	Flor 11
+		Color: (255, 255, 0)
+		Posicion: (36, 42)
+		Polen recolectado: 4
+
+	Flor 12
+		Color: (0, 128, 0)
+		Posicion: (10, 18)
+		Polen recolectado: 0
+
+	Flor 13
+		Color: (0, 128, 0)
+		Posicion: (91, 44)
+		Polen recolectado: 0
+
+	Flor 14
+		Color: (255, 255, 255)
+		Posicion: (74, 76)
+		Polen recolectado: 0
+
+	Flor 15
+		Color: (128, 128, 128)
+		Posicion: (59, 86)
+		Polen recolectado: 0
+
+	Flor 16
+		Color: (255, 0, 0)
+		Posicion: (0, 85)
+		Polen recolectado: 0
+
+	Flor 17
+		Color: (128, 0, 128)
+		Posicion: (93, 66)
+		Polen recolectado: 0
+
+	Flor 18
+		Color: (0, 0, 255)
+		Posicion: (96, 52)
+		Polen recolectado: 0
+
+	Flor 19
+		Color: (0, 255, 255)
+		Posicion: (41, 44)
+		Polen recolectado: 5
+
+	Flor 20
+		Color: (255, 0, 0)
+		Posicion: (6, 44)
+		Polen recolectado: 7
+
+	Flor 21
+		Color: (0, 128, 0)
+		Posicion: (43, 6)
+		Polen recolectado: 0
+
+	Flor 22
+		Color: (128, 0, 128)
+		Posicion: (75, 80)
+		Polen recolectado: 0
+
+	Flor 23
+		Color: (255, 255, 0)
+		Posicion: (56, 41)
+		Polen recolectado: 9
+
+	Flor 24
+		Color: (0, 128, 0)
+		Posicion: (81, 35)
+		Polen recolectado: 0
+
+	Flor 25
+		Color: (255, 0, 0)
+		Posicion: (60, 51)
+		Polen recolectado: 0
+
+	Flor 26
+		Color: (0, 128, 0)
+		Posicion: (89, 62)
+		Polen recolectado: 0
+
+	Flor 27
+		Color: (0, 128, 0)
+		Posicion: (56, 46)
+		Polen recolectado: 3
+
+	Flor 28
+		Color: (255, 255, 0)
+		Posicion: (9, 61)
+		Polen recolectado: 0
+
+	Flor 29
+		Color: (0, 255, 255)
+		Posicion: (66, 97)
+		Polen recolectado: 0
+
+	Flor 30
+		Color: (0, 128, 0)
+		Posicion: (50, 78)
+		Polen recolectado: 0
+
+Generacion 2
+
+	Flor 31
+		Color: (255, 255, 255)
+		Posicion: (2, 53)
+		Polen recolectado: 0
+
+	Flor 32
+		Color: (255, 255, 255)
+		Posicion: (17, 97)
+		Polen recolectado: 5
+
+	Flor 33
+		Color: (255, 255, 0)
+		Posicion: (48, 98)
+		Polen recolectado: 8
+
+	Flor 34
+		Color: (0, 255, 255)
+		Posicion: (47, 98)
+		Polen recolectado: 9
+
+	Flor 35
+		Color: (255, 255, 255)
+		Posicion: (85, 92)
+		Polen recolectado: 8
+
+	Flor 36
+		Color: (0, 0, 0)
+		Posicion: (88, 64)
+		Polen recolectado: 10
+
+	Flor 37
+		Color: (255, 0, 0)
+		Posicion: (88, 74)
+		Polen recolectado: 0
+
+	Flor 38
+		Color: (128, 128, 0)
+		Posicion: (77, 49)
+		Polen recolectado: 4
+
+	Flor 39
+		Color: (0, 0, 255)
+		Posicion: (68, 46)
+		Polen recolectado: 4
+
+	Flor 40
+		Color: (128, 128, 128)
+		Posicion: (34, 53)
+		Polen recolectado: 0
+
+	Flor 41
+		Color: (0, 128, 0)
+		Posicion: (36, 42)
+		Polen recolectado: 9
+
+	Flor 42
+		Color: (0, 128, 0)
+		Posicion: (10, 18)
+		Polen recolectado: 5
+
+	Flor 43
+		Color: (0, 128, 0)
+		Posicion: (91, 44)
+		Polen recolectado: 0
+
+	Flor 44
+		Color: (255, 255, 255)
+		Posicion: (74, 76)
+		Polen recolectado: 0
+
+	Flor 45
+		Color: (128, 128, 128)
+		Posicion: (59, 86)
+		Polen recolectado: 0
+
+	Flor 46
+		Color: (255, 0, 0)
+		Posicion: (0, 85)
+		Polen recolectado: 0
+
+	Flor 47
+		Color: (128, 0, 128)
+		Posicion: (93, 66)
+		Polen recolectado: 0
+
+	Flor 48
+		Color: (0, 0, 255)
+		Posicion: (96, 52)
+		Polen recolectado: 0
+
+	Flor 49
+		Color: (0, 255, 255)
+		Posicion: (41, 44)
+		Polen recolectado: 1
+
+	Flor 50
+		Color: (255, 0, 128)
+		Posicion: (6, 44)
+		Polen recolectado: 7
+
+	Flor 51
+		Color: (0, 128, 0)
+		Posicion: (43, 6)
+		Polen recolectado: 0
+
+	Flor 52
+		Color: (128, 0, 128)
+		Posicion: (75, 80)
+		Polen recolectado: 0
+
+	Flor 53
+		Color: (0, 128, 0)
+		Posicion: (56, 41)
+		Polen recolectado: 1
+
+	Flor 54
+		Color: (0, 128, 0)
+		Posicion: (81, 35)
+		Polen recolectado: 0
+
+	Flor 55
+		Color: (255, 0, 0)
+		Posicion: (60, 51)
+		Polen recolectado: 0
+
+	Flor 56
+		Color: (0, 128, 0)
+		Posicion: (89, 62)
+		Polen recolectado: 0
+
+	Flor 57
+		Color: (0, 128, 0)
+		Posicion: (56, 46)
+		Polen recolectado: 7
+
+	Flor 58
+		Color: (255, 255, 0)
+		Posicion: (9, 61)
+		Polen recolectado: 0
+
+	Flor 59
+		Color: (0, 255, 255)
+		Posicion: (66, 97)
+		Polen recolectado: 0
+
+	Flor 60
+		Color: (0, 128, 0)
+		Posicion: (50, 78)
+		Polen recolectado: 0
+
+Generacion 3
+
+	Flor 61
+		Color: (255, 255, 255)
+		Posicion: (2, 53)
+		Polen recolectado: 0
+
+	Flor 62
+		Color: (255, 255, 255)
+		Posicion: (17, 97)
+		Polen recolectado: 5
+
+	Flor 63
+		Color: (255, 255, 0)
+		Posicion: (48, 98)
+		Polen recolectado: 8
+
+	Flor 64
+		Color: (0, 255, 255)
+		Posicion: (47, 98)
+		Polen recolectado: 9
+
+	Flor 65
+		Color: (0, 255, 255)
+		Posicion: (85, 92)
+		Polen recolectado: 8
+
+	Flor 66
+		Color: (255, 0, 0)
+		Posicion: (88, 64)
+		Polen recolectado: 10
+
+	Flor 67
+		Color: (255, 0, 0)
+		Posicion: (88, 74)
+		Polen recolectado: 0
+
+	Flor 68
+		Color: (0, 128, 0)
+		Posicion: (77, 49)
+		Polen recolectado: 3
+
+	Flor 69
+		Color: (0, 128, 0)
+		Posicion: (68, 46)
+		Polen recolectado: 4
+
+	Flor 70
+		Color: (128, 128, 128)
+		Posicion: (34, 53)
+		Polen recolectado: 0
+
+	Flor 71
+		Color: (0, 128, 0)
+		Posicion: (36, 42)
+		Polen recolectado: 8
+
+	Flor 72
+		Color: (0, 128, 0)
+		Posicion: (10, 18)
+		Polen recolectado: 7
+
+	Flor 73
+		Color: (0, 128, 0)
+		Posicion: (91, 44)
+		Polen recolectado: 0
+
+	Flor 74
+		Color: (255, 255, 255)
+		Posicion: (74, 76)
+		Polen recolectado: 0
+
+	Flor 75
+		Color: (128, 128, 128)
+		Posicion: (59, 86)
+		Polen recolectado: 0
+
+	Flor 76
+		Color: (255, 0, 0)
+		Posicion: (0, 85)
+		Polen recolectado: 0
+
+	Flor 77
+		Color: (128, 0, 128)
+		Posicion: (93, 66)
+		Polen recolectado: 0
+
+	Flor 78
+		Color: (0, 0, 255)
+		Posicion: (96, 52)
+		Polen recolectado: 0
+
+	Flor 79
+		Color: (0, 128, 0)
+		Posicion: (41, 44)
+		Polen recolectado: 2
+
+	Flor 80
+		Color: (255, 0, 128)
+		Posicion: (6, 44)
+		Polen recolectado: 6
+
+	Flor 81
+		Color: (0, 128, 0)
+		Posicion: (43, 6)
+		Polen recolectado: 0
+
+	Flor 82
+		Color: (128, 0, 128)
+		Posicion: (75, 80)
+		Polen recolectado: 0
+
+	Flor 83
+		Color: (0, 128, 0)
+		Posicion: (56, 41)
+		Polen recolectado: 3
+
+	Flor 84
+		Color: (0, 128, 0)
+		Posicion: (81, 35)
+		Polen recolectado: 0
+
+	Flor 85
+		Color: (255, 0, 0)
+		Posicion: (60, 51)
+		Polen recolectado: 0
+
+	Flor 86
+		Color: (0, 128, 0)
+		Posicion: (89, 62)
+		Polen recolectado: 0
+
+	Flor 87
+		Color: (0, 0, 255)
+		Posicion: (56, 46)
+		Polen recolectado: 5
+
+	Flor 88
+		Color: (255, 255, 0)
+		Posicion: (9, 61)
+		Polen recolectado: 0
+
+	Flor 89
+		Color: (0, 255, 255)
+		Posicion: (66, 97)
+		Polen recolectado: 0
+
+	Flor 90
+		Color: (0, 128, 0)
+		Posicion: (50, 78)
+		Polen recolectado: 0
+
+Generacion 4
+
+	Flor 91
+		Color: (255, 255, 255)
+		Posicion: (2, 53)
+		Polen recolectado: 0
+
+	Flor 92
+		Color: (255, 255, 255)
+		Posicion: (17, 97)
+		Polen recolectado: 6
+
+	Flor 93
+		Color: (255, 255, 0)
+		Posicion: (48, 98)
+		Polen recolectado: 10
+
+	Flor 94
+		Color: (255, 255, 255)
+		Posicion: (47, 98)
+		Polen recolectado: 12
+
+	Flor 95
+		Color: (255, 255, 0)
+		Posicion: (85, 92)
+		Polen recolectado: 12
+
+	Flor 96
+		Color: (0, 0, 0)
+		Posicion: (88, 64)
+		Polen recolectado: 10
+
+	Flor 97
+		Color: (255, 0, 0)
+		Posicion: (88, 74)
+		Polen recolectado: 6
+
+	Flor 98
+		Color: (0, 128, 0)
+		Posicion: (77, 49)
+		Polen recolectado: 0
+
+	Flor 99
+		Color: (0, 128, 0)
+		Posicion: (68, 46)
+		Polen recolectado: 2
+
+	Flor 100
+		Color: (128, 128, 128)
+		Posicion: (34, 53)
+		Polen recolectado: 0
+
+	Flor 101
+		Color: (0, 128, 0)
+		Posicion: (36, 42)
+		Polen recolectado: 4
+
+	Flor 102
+		Color: (0, 128, 0)
+		Posicion: (10, 18)
+		Polen recolectado: 0
+
+	Flor 103
+		Color: (0, 128, 0)
+		Posicion: (91, 44)
+		Polen recolectado: 0
+
+	Flor 104
+		Color: (255, 255, 255)
+		Posicion: (74, 76)
+		Polen recolectado: 0
+
+	Flor 105
+		Color: (128, 128, 128)
+		Posicion: (59, 86)
+		Polen recolectado: 0
+
+	Flor 106
+		Color: (255, 0, 0)
+		Posicion: (0, 85)
+		Polen recolectado: 0
+
+	Flor 107
+		Color: (128, 0, 128)
+		Posicion: (93, 66)
+		Polen recolectado: 0
+
+	Flor 108
+		Color: (0, 0, 255)
+		Posicion: (96, 52)
+		Polen recolectado: 0
+
+	Flor 109
+		Color: (0, 128, 0)
+		Posicion: (41, 44)
+		Polen recolectado: 1
+
+	Flor 110
+		Color: (255, 0, 255)
+		Posicion: (6, 44)
+		Polen recolectado: 0
+
+	Flor 111
+		Color: (0, 128, 0)
+		Posicion: (43, 6)
+		Polen recolectado: 0
+
+	Flor 112
+		Color: (128, 0, 128)
+		Posicion: (75, 80)
+		Polen recolectado: 0
+
+	Flor 113
+		Color: (0, 128, 0)
+		Posicion: (56, 41)
+		Polen recolectado: 0
+
+	Flor 114
+		Color: (0, 128, 0)
+		Posicion: (81, 35)
+		Polen recolectado: 0
+
+	Flor 115
+		Color: (255, 0, 0)
+		Posicion: (60, 51)
+		Polen recolectado: 0
+
+	Flor 116
+		Color: (0, 128, 0)
+		Posicion: (89, 62)
+		Polen recolectado: 0
+
+	Flor 117
+		Color: (0, 0, 255)
+		Posicion: (56, 46)
+		Polen recolectado: 3
+
+	Flor 118
+		Color: (255, 255, 0)
+		Posicion: (9, 61)
+		Polen recolectado: 0
+
+	Flor 119
+		Color: (0, 255, 255)
+		Posicion: (66, 97)
+		Polen recolectado: 0
+
+	Flor 120
+		Color: (0, 128, 0)
+		Posicion: (50, 78)
+		Polen recolectado: 0
+
+Generacion 1
+
+	Flor 1
+		Color: (128, 0, 128)
+		Posicion: (32, 51)
+		Polen recolectado: 0
+
+Generacion 2
+
+	Flor 2
+		Color: (128, 0, 128)
+		Posicion: (32, 51)
+		Polen recolectado: 0
+
+Generacion 3
+
+	Flor 3
+		Color: (128, 0, 128)
+		Posicion: (32, 51)
+		Polen recolectado: 0
+
+Generacion 4
+
+	Flor 4
+		Color: (128, 0, 128)
+		Posicion: (32, 51)
+		Polen recolectado: 0
+
+Generacion 1
+
+	Flor 1
+		Color: (128, 0, 128)
+		Posicion: (91, 84)
+		Polen recolectado: 0
+
+	Flor 2
+		Color: (128, 0, 128)
+		Posicion: (39, 34)
+		Polen recolectado: 5
+
+	Flor 3
+		Color: (255, 255, 0)
+		Posicion: (42, 41)
+		Polen recolectado: 10
+
+	Flor 4
+		Color: (128, 0, 128)
+		Posicion: (43, 17)
+		Polen recolectado: 9
+
+	Flor 5
+		Color: (128, 128, 128)
+		Posicion: (9, 20)
+		Polen recolectado: 8
+
+	Flor 6
+		Color: (0, 128, 0)
+		Posicion: (3, 55)
+		Polen recolectado: 10
+
+	Flor 7
+		Color: (255, 255, 0)
+		Posicion: (7, 65)
+		Polen recolectado: 10
+
+	Flor 8
+		Color: (128, 0, 128)
+		Posicion: (51, 4)
+		Polen recolectado: 7
+
+	Flor 9
+		Color: (255, 0, 0)
+		Posicion: (64, 83)
+		Polen recolectado: 0
+
+	Flor 10
+		Color: (128, 0, 128)
+		Posicion: (46, 46)
+		Polen recolectado: 0
+
+	Flor 11
+		Color: (0, 128, 0)
+		Posicion: (94, 6)
+		Polen recolectado: 0
+
+	Flor 12
+		Color: (255, 255, 255)
+		Posicion: (51, 20)
+		Polen recolectado: 0
+
+	Flor 13
+		Color: (255, 255, 0)
+		Posicion: (65, 13)
+		Polen recolectado: 0
+
+	Flor 14
+		Color: (255, 255, 255)
+		Posicion: (55, 80)
+		Polen recolectado: 0
+
+	Flor 15
+		Color: (128, 128, 128)
+		Posicion: (55, 20)
+		Polen recolectado: 0
+
+	Flor 16
+		Color: (255, 255, 0)
+		Posicion: (36, 11)
+		Polen recolectado: 0
+
+	Flor 17
+		Color: (255, 0, 0)
+		Posicion: (28, 8)
+		Polen recolectado: 0
+
+	Flor 18
+		Color: (0, 0, 255)
+		Posicion: (28, 68)
+		Polen recolectado: 0
+
+	Flor 19
+		Color: (255, 255, 255)
+		Posicion: (16, 65)
+		Polen recolectado: 1
+
+	Flor 20
+		Color: (255, 0, 0)
+		Posicion: (66, 10)
+		Polen recolectado: 0
+
+	Flor 21
+		Color: (255, 0, 0)
+		Posicion: (43, 98)
+		Polen recolectado: 0
+
+	Flor 22
+		Color: (0, 255, 255)
+		Posicion: (19, 74)
+		Polen recolectado: 3
+
+	Flor 23
+		Color: (255, 255, 0)
+		Posicion: (12, 26)
+		Polen recolectado: 0
+
+	Flor 24
+		Color: (0, 0, 255)
+		Posicion: (4, 85)
+		Polen recolectado: 0
+
+	Flor 25
+		Color: (255, 255, 0)
+		Posicion: (60, 88)
+		Polen recolectado: 0
+
+	Flor 26
+		Color: (0, 128, 0)
+		Posicion: (19, 22)
+		Polen recolectado: 0
+
+	Flor 27
+		Color: (255, 255, 255)
+		Posicion: (15, 93)
+		Polen recolectado: 0
+
+	Flor 28
+		Color: (0, 128, 0)
+		Posicion: (95, 87)
+		Polen recolectado: 0
+
+	Flor 29
+		Color: (0, 128, 0)
+		Posicion: (61, 53)
+		Polen recolectado: 2
+
+	Flor 30
+		Color: (0, 0, 255)
+		Posicion: (79, 15)
+		Polen recolectado: 0
+
+Generacion 2
+
+	Flor 31
+		Color: (128, 0, 128)
+		Posicion: (91, 84)
+		Polen recolectado: 0
+
+	Flor 32
+		Color: (128, 0, 128)
+		Posicion: (39, 34)
+		Polen recolectado: 4
+
+	Flor 33
+		Color: (128, 255, 128)
+		Posicion: (42, 41)
+		Polen recolectado: 8
+
+	Flor 34
+		Color: (128, 0, 128)
+		Posicion: (43, 17)
+		Polen recolectado: 6
+
+	Flor 35
+		Color: (128, 128, 128)
+		Posicion: (9, 20)
+		Polen recolectado: 8
+
+	Flor 36
+		Color: (0, 128, 0)
+		Posicion: (3, 55)
+		Polen recolectado: 13
+
+	Flor 37
+		Color: (255, 0, 128)
+		Posicion: (7, 65)
+		Polen recolectado: 6
+
+	Flor 38
+		Color: (128, 0, 128)
+		Posicion: (51, 4)
+		Polen recolectado: 7
+
+	Flor 39
+		Color: (255, 0, 0)
+		Posicion: (64, 83)
+		Polen recolectado: 0
+
+	Flor 40
+		Color: (128, 0, 128)
+		Posicion: (46, 46)
+		Polen recolectado: 1
+
+	Flor 41
+		Color: (0, 128, 0)
+		Posicion: (94, 6)
+		Polen recolectado: 0
+
+	Flor 42
+		Color: (255, 255, 255)
+		Posicion: (51, 20)
+		Polen recolectado: 0
+
+	Flor 43
+		Color: (255, 255, 0)
+		Posicion: (65, 13)
+		Polen recolectado: 0
+
+	Flor 44
+		Color: (255, 255, 255)
+		Posicion: (55, 80)
+		Polen recolectado: 0
+
+	Flor 45
+		Color: (128, 128, 128)
+		Posicion: (55, 20)
+		Polen recolectado: 0
+
+	Flor 46
+		Color: (255, 255, 0)
+		Posicion: (36, 11)
+		Polen recolectado: 0
+
+	Flor 47
+		Color: (255, 0, 0)
+		Posicion: (28, 8)
+		Polen recolectado: 0
+
+	Flor 48
+		Color: (0, 0, 255)
+		Posicion: (28, 68)
+		Polen recolectado: 4
+
+	Flor 49
+		Color: (0, 0, 255)
+		Posicion: (16, 65)
+		Polen recolectado: 2
+
+	Flor 50
+		Color: (255, 0, 0)
+		Posicion: (66, 10)
+		Polen recolectado: 0
+
+	Flor 51
+		Color: (255, 0, 0)
+		Posicion: (43, 98)
+		Polen recolectado: 0
+
+	Flor 52
+		Color: (0, 255, 255)
+		Posicion: (19, 74)
+		Polen recolectado: 1
+
+	Flor 53
+		Color: (255, 255, 0)
+		Posicion: (12, 26)
+		Polen recolectado: 0
+
+	Flor 54
+		Color: (0, 0, 255)
+		Posicion: (4, 85)
+		Polen recolectado: 0
+
+	Flor 55
+		Color: (255, 255, 0)
+		Posicion: (60, 88)
+		Polen recolectado: 0
+
+	Flor 56
+		Color: (0, 128, 0)
+		Posicion: (19, 22)
+		Polen recolectado: 0
+
+	Flor 57
+		Color: (255, 255, 255)
+		Posicion: (15, 93)
+		Polen recolectado: 0
+
+	Flor 58
+		Color: (0, 128, 0)
+		Posicion: (95, 87)
+		Polen recolectado: 0
+
+	Flor 59
+		Color: (0, 128, 0)
+		Posicion: (61, 53)
+		Polen recolectado: 5
+
+	Flor 60
+		Color: (0, 0, 255)
+		Posicion: (79, 15)
+		Polen recolectado: 0
+
+Generacion 3
+
+	Flor 61
+		Color: (128, 0, 128)
+		Posicion: (91, 84)
+		Polen recolectado: 0
+
+	Flor 62
+		Color: (128, 0, 128)
+		Posicion: (39, 34)
+		Polen recolectado: 5
+
+	Flor 63
+		Color: (128, 255, 128)
+		Posicion: (42, 41)
+		Polen recolectado: 7
+
+	Flor 64
+		Color: (128, 0, 128)
+		Posicion: (43, 17)
+		Polen recolectado: 6
+
+	Flor 65
+		Color: (128, 128, 128)
+		Posicion: (9, 20)
+		Polen recolectado: 8
+
+	Flor 66
+		Color: (0, 128, 0)
+		Posicion: (3, 55)
+		Polen recolectado: 10
+
+	Flor 67
+		Color: (255, 0, 128)
+		Posicion: (7, 65)
+		Polen recolectado: 11
+
+	Flor 68
+		Color: (0, 128, 0)
+		Posicion: (51, 4)
+		Polen recolectado: 7
+
+	Flor 69
+		Color: (255, 0, 0)
+		Posicion: (64, 83)
+		Polen recolectado: 8
+
+	Flor 70
+		Color: (128, 255, 128)
+		Posicion: (46, 46)
+		Polen recolectado: 0
+
+	Flor 71
+		Color: (0, 128, 0)
+		Posicion: (94, 6)
+		Polen recolectado: 0
+
+	Flor 72
+		Color: (255, 255, 255)
+		Posicion: (51, 20)
+		Polen recolectado: 0
+
+	Flor 73
+		Color: (255, 255, 0)
+		Posicion: (65, 13)
+		Polen recolectado: 0
+
+	Flor 74
+		Color: (255, 255, 255)
+		Posicion: (55, 80)
+		Polen recolectado: 0
+
+	Flor 75
+		Color: (128, 128, 128)
+		Posicion: (55, 20)
+		Polen recolectado: 0
+
+	Flor 76
+		Color: (255, 255, 0)
+		Posicion: (36, 11)
+		Polen recolectado: 0
+
+	Flor 77
+		Color: (255, 0, 0)
+		Posicion: (28, 8)
+		Polen recolectado: 0
+
+	Flor 78
+		Color: (0, 0, 255)
+		Posicion: (28, 68)
+		Polen recolectado: 1
+
+	Flor 79
+		Color: (0, 255, 255)
+		Posicion: (16, 65)
+		Polen recolectado: 4
+
+	Flor 80
+		Color: (255, 0, 0)
+		Posicion: (66, 10)
+		Polen recolectado: 0
+
+	Flor 81
+		Color: (255, 0, 0)
+		Posicion: (43, 98)
+		Polen recolectado: 0
+
+	Flor 82
+		Color: (0, 0, 255)
+		Posicion: (19, 74)
+		Polen recolectado: 3
+
+	Flor 83
+		Color: (255, 255, 0)
+		Posicion: (12, 26)
+		Polen recolectado: 0
+
+	Flor 84
+		Color: (0, 0, 255)
+		Posicion: (4, 85)
+		Polen recolectado: 0
+
+	Flor 85
+		Color: (255, 255, 0)
+		Posicion: (60, 88)
+		Polen recolectado: 0
+
+	Flor 86
+		Color: (0, 128, 0)
+		Posicion: (19, 22)
+		Polen recolectado: 0
+
+	Flor 87
+		Color: (255, 255, 255)
+		Posicion: (15, 93)
+		Polen recolectado: 0
+
+	Flor 88
+		Color: (0, 128, 0)
+		Posicion: (95, 87)
+		Polen recolectado: 0
+
+	Flor 89
+		Color: (0, 128, 255)
+		Posicion: (61, 53)
+		Polen recolectado: 2
+
+	Flor 90
+		Color: (0, 0, 255)
+		Posicion: (79, 15)
+		Polen recolectado: 0
+
+Generacion 4
+
+	Flor 91
+		Color: (128, 0, 128)
+		Posicion: (91, 84)
+		Polen recolectado: 0
+
+	Flor 92
+		Color: (128, 0, 128)
+		Posicion: (39, 34)
+		Polen recolectado: 4
+
+	Flor 93
+		Color: (128, 255, 128)
+		Posicion: (42, 41)
+		Polen recolectado: 4
+
+	Flor 94
+		Color: (128, 0, 128)
+		Posicion: (43, 17)
+		Polen recolectado: 6
+
+	Flor 95
+		Color: (128, 128, 128)
+		Posicion: (9, 20)
+		Polen recolectado: 8
+
+	Flor 96
+		Color: (128, 0, 128)
+		Posicion: (3, 55)
+		Polen recolectado: 4
+
+	Flor 97
+		Color: (255, 0, 128)
+		Posicion: (7, 65)
+		Polen recolectado: 5
+
+	Flor 98
+		Color: (0, 128, 0)
+		Posicion: (51, 4)
+		Polen recolectado: 0
+
+	Flor 99
+		Color: (255, 0, 128)
+		Posicion: (64, 83)
+		Polen recolectado: 0
+
+	Flor 100
+		Color: (128, 255, 128)
+		Posicion: (46, 46)
+		Polen recolectado: 1
+
+	Flor 101
+		Color: (0, 128, 0)
+		Posicion: (94, 6)
+		Polen recolectado: 0
+
+	Flor 102
+		Color: (255, 255, 255)
+		Posicion: (51, 20)
+		Polen recolectado: 0
+
+	Flor 103
+		Color: (255, 255, 0)
+		Posicion: (65, 13)
+		Polen recolectado: 0
+
+	Flor 104
+		Color: (255, 255, 255)
+		Posicion: (55, 80)
+		Polen recolectado: 0
+
+	Flor 105
+		Color: (128, 128, 128)
+		Posicion: (55, 20)
+		Polen recolectado: 0
+
+	Flor 106
+		Color: (255, 255, 0)
+		Posicion: (36, 11)
+		Polen recolectado: 0
+
+	Flor 107
+		Color: (255, 0, 0)
+		Posicion: (28, 8)
+		Polen recolectado: 0
+
+	Flor 108
+		Color: (0, 128, 255)
+		Posicion: (28, 68)
+		Polen recolectado: 0
+
+	Flor 109
+		Color: (0, 255, 255)
+		Posicion: (16, 65)
+		Polen recolectado: 1
+
+	Flor 110
+		Color: (255, 0, 0)
+		Posicion: (66, 10)
+		Polen recolectado: 0
+
+	Flor 111
+		Color: (255, 0, 0)
+		Posicion: (43, 98)
+		Polen recolectado: 0
+
+	Flor 112
+		Color: (0, 128, 255)
+		Posicion: (19, 74)
+		Polen recolectado: 3
+
+	Flor 113
+		Color: (255, 255, 0)
+		Posicion: (12, 26)
+		Polen recolectado: 0
+
+	Flor 114
+		Color: (0, 0, 255)
+		Posicion: (4, 85)
+		Polen recolectado: 0
+
+	Flor 115
+		Color: (255, 255, 0)
+		Posicion: (60, 88)
+		Polen recolectado: 0
+
+	Flor 116
+		Color: (0, 128, 0)
+		Posicion: (19, 22)
+		Polen recolectado: 0
+
+	Flor 117
+		Color: (255, 255, 255)
+		Posicion: (15, 93)
+		Polen recolectado: 0
+
+	Flor 118
+		Color: (0, 128, 0)
+		Posicion: (95, 87)
+		Polen recolectado: 0
+
+	Flor 119
+		Color: (0, 128, 0)
+		Posicion: (61, 53)
+		Polen recolectado: 2
+
+	Flor 120
+		Color: (0, 0, 255)
+		Posicion: (79, 15)
+		Polen recolectado: 2
+

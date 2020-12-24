@@ -1,6 +1,7 @@
 import random
 class Flor:
-    def __init__(self,pos,polen):
+    def __init__(self, id, pos,polen):
+        self.id = id
         self.pos = pos
         self.polen = polen #Polen tiene el rgb
         self.polenmezcla = []

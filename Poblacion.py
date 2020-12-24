@@ -12,6 +12,7 @@ from PyQt5.QtWidgets import *
 from Flor import Flor
 from Abeja import Abeja
 from Grafo import Grafo
+from Ventana import Window
 
 class Poblacion:
 
@@ -19,7 +20,7 @@ class Poblacion:
 
         # Gris - Rojo - Amarillo - Verde - Azul - Morado - Blanco - Aqua
         self.colorFlor = [(128, 128, 128), (255, 0, 0), (255, 255, 0), (0, 128, 0),
-                     (0, 0, 255), (128, 0, 128), (255, 255, 255), (0, 255, 255)]
+                          (0, 0, 255), (128, 0, 128), (255, 255, 255), (0, 255, 255)]
         self.direccion = ['Norte', 'Noreste', 'Este', 'Sureste', 'Sur', 'Suroeste', 'Oeste', 'Noroeste']
         self.tipoRecorrido = ['Lejos del panal, por anchura', 'Cerca del panal, por anchura',
                               'Lejos del panal, por profundidad', 'Cerca del panal, por profundidad',
@@ -27,9 +28,9 @@ class Poblacion:
         self.ventana = ventana
         self.ventanamain = ventanamain
         #-------------------------
-        self.cantidadFlores = 20
-        self.cantidadAbejas = 8
-        self.threadTime = 1
+        self.cantidadFlores = 30
+        self.cantidadAbejas = 10
+        self.threadTime = 2
         #-------------------------
         self.flores = []
         self.abejas = []
@@ -48,7 +49,7 @@ class Poblacion:
             if self.countGeneracion == 1:
                 hilo = threading.Thread(name='Generacion %s' % self.parada,
                                         target=self.generacionInicial,
-                                        args=(self.threadTime, qp,))
+                                        args=(self.threadTime, qp))
                 hilo.start()
                 self.countGeneracion += 1
                 self.parada += 1
@@ -56,7 +57,7 @@ class Poblacion:
             else:
                 hilo = threading.Thread(name='Generacion %s' % self.parada,
                                         target=self.generacion,
-                                        args=(self.threadTime, qp,))
+                                        args=(self.threadTime, qp))
                 hilo.start()
                 self.countGeneracion += 1
                 self.parada += 1
@@ -70,15 +71,19 @@ class Poblacion:
             print("Flores totales: ", flor)
             lb1.setText(str(flor))
             lb2.setText(str(dis))
+
         self.TextFile()
 
+
     def generacionInicial(self, segundos, qp):
-        print("Generación ", self.countGeneracion)
+        print("\n\nGeneración ", self.countGeneracion)
+        w = Window()
         for i in range(self.cantidadFlores):
+            self.numFlores += 1
             ranX = random.randint(0,99)
             ranY = random.randint(0, 99)
             color = random.randint(0, 7)
-            flor = Flor([ranX, ranY],self.colorFlor[color])
+            flor = Flor(self.numFlores ,[ranX, ranY],self.colorFlor[color])
             self.flores.append(flor)
 
             self.drawNewFlower(qp, flor) # Pinta la flor en la ventana
@@ -99,9 +104,13 @@ class Poblacion:
             self.abejas.append(abeja)
 
         self.threadAbejas()
+        for flor in self.flores:
+            w.paint(flor.pos[0], flor.pos[1], flor.polen)
+        w.window.mainloop()
 
     def generacion(self, segundos, qp):
-        print("Generación ", self.countGeneracion)
+        # w = Window()
+        print("\n\nGeneración ", self.countGeneracion)
 
         self.floresGeneraciones.append(self.flores)
         self.abejasGeneraciones.append(self.abejas)
@@ -109,8 +118,9 @@ class Poblacion:
         # Nuevas flores
         auxFlores = []
         for flor in self.flores:
+            self.numFlores += 1
             pos, polen = flor.seleccionFlor()
-            newflor = Flor(pos, polen)
+            newflor = Flor(self.numFlores ,pos, polen)
             auxFlores.append(newflor)
 
             self.drawNewFlower(qp, newflor) # Pinta la flor en la ventana
@@ -133,8 +143,13 @@ class Poblacion:
 
         self.flores = auxFlores
         self.abejas = auxAbejas
+        self.grafoBusqueda()
 
         self.threadAbejas()
+        # for flor in self.flores:
+        #     w.paint(flor.pos[0], flor.pos[1], flor.polen)
+        # w.window.mainloop()
+
 
     # Algoritmo Genético
     def cruceAbeja(self, a1, a2):
@@ -164,8 +179,8 @@ class Poblacion:
 
     def mutacion(self, adn):
         # tira = abeja.getADN()
-        ran = random.randint(1, len(adn))
-        if adn[ran] == 0:
+        ran = random.randint(1, len(adn)-1)
+        if adn[ran] == '0':
             return adn[:ran - 1] + '1' + adn[ran:]
         else:
             return adn[:ran - 1] + '0' + adn[ran:]
@@ -191,7 +206,7 @@ class Poblacion:
 
         self.numAbejas += 1
         abeja = Abeja(self.numAbejas, [int(adn[0:8], 2), int(adn[8:16], 2), int(adn[16:24], 2)],
-                       int(adn[24:27], 2), ang, dir, tipo, padres, self.countGeneracion)
+                      int(adn[24:27], 2), ang, dir, tipo, padres, self.countGeneracion)
         return abeja
 
     def eliminaAbeja(self,color,dira,dirb):
@@ -202,7 +217,7 @@ class Poblacion:
 
     def creaFlor(self,pos,polen):
         flor = Flor()
-        flor.__init__(flor,pos,polen)
+        flor.__init__(self.numFlores, pos,polen)
         self.flores.append(flor)
 
     def eliminaFlor(self,pos):
@@ -220,16 +235,16 @@ class Poblacion:
         for x in self.flores:
             for y in self.flores:
                 if x is not y:
-                # if (x is not y) and self.flores.index(x) < self.flores.index(y):
                     dis = self.distanciaPuntos(x.pos, y.pos)
                     g.agregarArista(self.flores.index(x), self.flores.index(y), dis)
 
-        for v in g:
-            for w in v.obtenerConexiones():
-                print("( %s , %s )" % (v.obtenerId(), w.obtenerId()) ,v.obtenerDistancia(w))
+        # for v in g:
+        #     for w in v.obtenerConexiones():
+        #         if (v.obtenerId() is not w.obtenerId()) and v.obtenerId() < w.obtenerId():
+        #             print("( %s , %s )" % (v.obtenerId(), w.obtenerId()) ,v.obtenerDistancia(w))
 
-        for i in range(len(self.flores)):
-            print(i, self.flores[i].pos)
+        # for i in range(len(self.flores)):
+        #     print(i, self.flores[i].pos)
 
         self.grafoFlores = g
 
@@ -254,7 +269,7 @@ class Poblacion:
 
             for vertice in v.conectadoA:
                 if vertice.obtenerId() not in cola and vertice.obtenerId() not in visitados and \
-                    (self.flores[actual].pos in campo):
+                        (self.flores[actual].pos in campo):
                     cola.append(vertice.obtenerId())
 
         for v in visitados:
@@ -262,7 +277,7 @@ class Poblacion:
                 inicio = g.obtenerVertice(v)
                 final = g.obtenerVertice(visitados[visitados.index(v)+1])
                 if final in inicio.conectadoA:
-                    print("-> Distacia recorrida por la abeja -> ", inicio.obtenerDistancia(final),
+                    print(" -> Distacia recorrida por la abeja %s ->  " % abeja.id, inicio.obtenerDistancia(final),
                           " ( %s , %s )" % (inicio.obtenerId(), final.obtenerId()))
 
                     abeja.distanciaTotal += inicio.obtenerDistancia(final)
@@ -342,6 +357,7 @@ class Poblacion:
                 self.depositarPolen(self.flores[li[ran]], abeja.polenCarry)
                 abeja.polenCarry.append(self.flores[li[ran]])
                 abeja.pos = self.flores[li[ran]].pos
+                print(" -> Distacia recorrida por la abeja %s ->  " % abeja.id, dis)
             li.remove(li[ran])
         return
 
@@ -402,7 +418,6 @@ class Poblacion:
 
     # Pinta el pixel de la flor
     def drawNewFlower(self, qp, flor):
-        print('DRAW')
         pen = QPen(QColor(flor.polen[0], flor.polen[1], flor.polen[2]),3)
         qp.setPen(pen)
         point = qp.drawPoint(flor.pos[0], flor.pos[1])
@@ -413,7 +428,11 @@ class Poblacion:
         text = ''
         for i in range(len(self.abejasGeneraciones)):
             text += 'Generacion ' + str(i+1) + '\n\n'
+            floresTotales = 0
+            distancia = 0
             for abeja in self.abejasGeneraciones[i]:
+                floresTotales += abeja.floresEncontradas
+                distancia += abeja.distanciaTotal
                 text += '\t' + 'Abeja ' + str(abeja.id) + '\n' + \
                         '\t\t' + 'Color Favorito: (' + str(abeja.color[0]) + ', ' + \
                         str(abeja.color[1]) + ', ' + str(abeja.color[2]) + ')\n' + \
@@ -423,7 +442,7 @@ class Poblacion:
                 if abeja.padres is not []:
                     text += '\t\t' + 'Padres: ' + str(abeja.padres) + '\n'
                 text += '\t\t' + 'Puntaje: ' + str(abeja.puntaje) + '\n' + \
-                '\t\t' + 'Angulo: ' + str(abeja.angulo) + ', Radio: ' + str(abeja.diametro) + '\n'
+                        '\t\t' + 'Angulo: ' + str(abeja.angulo) + ', Radio: ' + str(abeja.diametro) + '\n'
 
                 if 0 <= abeja.tipoRecorrido <= 2:
                     text += '\t\t' + 'Tipo de recorrido: ' + self.tipoRecorrido[0] + '\n\n'
@@ -435,11 +454,25 @@ class Poblacion:
                     text += '\t\t' + 'Tipo de recorrido: ' + self.tipoRecorrido[3] + '\n\n'
                 else:
                     text += '\t\t' + 'Tipo de recorrido: ' + self.tipoRecorrido[4] + '\n\n'
-
-        f = open('Generaciones.txt', 'a')
+            text += '-> Flores encontradas: ' + str(floresTotales) + \
+                    '\n-> Distancia total recorrida: ' + str(distancia) + '\n\n'
+        f = open('GeneracionesAbejas.txt', 'a')
         f.write(text)
         f.close()
 
+        text = ''
+        for i in range(len(self.floresGeneraciones)):
+            text += 'Generacion ' + str(i + 1) + '\n\n'
+            for flor in self.floresGeneraciones[i]:
+                text += '\t' + 'Flor ' + str(flor.id) + '\n' + \
+                        '\t\t' + 'Color: (' + str(flor.polen[0]) + ', ' + \
+                        str(flor.polen[1]) + ', ' + str(flor.polen[2]) + ')\n' + \
+                        '\t\t' + 'Posicion: (' + str(flor.pos[0]) + ', ' + str(flor.pos[1]) + ')\n'
+                text += '\t\t' + 'Polen recolectado: ' + str(len(flor.polenmezcla)) + '\n\n'
+
+        f = open('GeneracionesFlores.txt', 'a')
+        f.write(text)
+        f.close()
 
 # def contar(self, segundos):
 #     contador = 0
