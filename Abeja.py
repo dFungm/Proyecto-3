@@ -95,8 +95,13 @@ class Abeja:
         #la busqueda, para que no se salga ni del radio ni mas del angulo de desviacion tampoco, al momento de moverse
 
     def SeleccionAbeja(self):
-        PuntosPerdidos = self.distanciaTotal // 2
-        self.puntaje -= PuntosPerdidos
-        PuntosPorFlor = self.floresEncontradas * 2
-        self.puntaje += PuntosPorFlor
+        temp = self.distanciaTotal
+        while temp > 11:
+            temp = temp/10
+        self.puntaje = self.puntaje // temp
+        self.puntaje = self.puntaje + self.floresEncontradas
+        if self.puntaje >= 100:
+            self.puntaje = 99
+        if self.puntaje <= 0:
+            self.puntaje = 1
         return self.puntaje
