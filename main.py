@@ -17,6 +17,7 @@ from Flor import Flor
 from Abeja import Abeja
 from Grafo import Grafo
 from Poblacion import Poblacion
+import time
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -33,12 +34,12 @@ class Ui_MainWindow(object):
         self.frame.setLineWidth(5)
         self.frame.setObjectName("frame")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(100, 320, 200, 60))
+        self.pushButton.setGeometry(QtCore.QRect(30, 320, 200, 50))
         self.pushButton.setStyleSheet("background-color:rgb(243, 231, 21);\n"
 "color:rgb(16, 24, 32)")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(260, 290, 141, 81))
+        self.pushButton_3.setGeometry(QtCore.QRect(260, 320, 120, 50))
         self.pushButton_3.setStyleSheet("background-color:rgb(243, 231, 21);\n"
 "color:rgb(16, 24, 32)")
         self.pushButton_3.setObjectName("pushButton_3")
@@ -76,7 +77,7 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        self.pushButton_3.clicked.connect(lambda: self.Ugen())
+        self.pushButton_3.clicked.connect(lambda: self.flores())
         self.pushButton.clicked.connect(lambda: self.Xgens())
         self.labelMap.resize(self.frame.width(), self.frame.height())
         pixmap = QPixmap(self.frame.width(), self.frame.height())
@@ -84,20 +85,36 @@ class Ui_MainWindow(object):
         self.poblacion = Poblacion(self.labelMap,MainWindow)
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.countFlores = 50
     def Xgens(self):
         x = int(self.lineEdit.text())
         if x <= 0:
             return
         else:
+            self.countFlores = 0
             self.poblacion.generaciones(x,self.label_4,self.label_5)
     def Ugen(self):
         self.poblacion.generaciones(1,self.label_4,self.label_5)
+
+    def flores(self):
+        x = int(self.lineEdit.text())
+        if x == 0:
+            self.countFlores = 0
+            _translate = QtCore.QCoreApplication.translate
+            self.lineEdit.setText(_translate("MainWindow", "-1"))
+        if self.countFlores < len(self.poblacion.floresGeneraciones):
+            self.poblacion.drawFlowers(self.countFlores)
+            print('Generacion: ', self.countFlores+1)
+            self.countFlores += 1
+        else:
+            print('Iniciar simulacion')
+
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Proyecto 3 Algoritmo genetico"))
         self.pushButton.setText(_translate("MainWindow", "Iniciar simulacion completa"))
-        self.pushButton_3.setText(_translate("MainWindow", "Simular una generacion"))
-        self.pushButton_3.hide()
+        self.pushButton_3.setText(_translate("MainWindow", "Generacion de Flores"))
         self.label.setText(_translate("MainWindow", "Flores recolectadas"))
         self.label_2.setText(_translate("MainWindow", "Distancia recorrida"))
         self.label_3.setText(_translate("MainWindow", "Datos de la generacion final:"))

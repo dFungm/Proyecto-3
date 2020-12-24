@@ -30,7 +30,7 @@ class Poblacion:
         #-------------------------
         self.cantidadFlores = 30
         self.cantidadAbejas = 10
-        self.threadTime = 2
+        self.threadTime = 1
         #-------------------------
         self.flores = []
         self.abejas = []
@@ -57,7 +57,7 @@ class Poblacion:
             else:
                 hilo = threading.Thread(name='Generacion %s' % self.parada,
                                         target=self.generacion,
-                                        args=(self.threadTime, qp))
+                                        args=(self.threadTime, qp, gens))
                 hilo.start()
                 self.countGeneracion += 1
                 self.parada += 1
@@ -74,10 +74,16 @@ class Poblacion:
 
         self.TextFile()
 
+        # for flor in self.flores:
+        #     self.drawNewFlower(qp, flor)
+        # for i in self.floresGeneraciones:
+        #     for flor in self.floresGeneraciones[i]:
+        #         self.drawNewFlower(qp, flor)
+        # self.drawFlowers()
+
 
     def generacionInicial(self, segundos, qp):
         print("\n\nGeneración ", self.countGeneracion)
-        # w = Window()
         for i in range(self.cantidadFlores):
             self.numFlores += 1
             ranX = random.randint(0,99)
@@ -85,10 +91,6 @@ class Poblacion:
             color = random.randint(0, 7)
             flor = Flor(self.numFlores ,[ranX, ranY],self.colorFlor[color])
             self.flores.append(flor)
-
-            self.drawNewFlower(qp, flor) # Pinta la flor en la ventana
-            # hilo = threading.Thread(target=self.drawNewFlower, args=(qp, flor,))
-            # hilo.start()
 
         self.grafoBusqueda()
 
@@ -104,12 +106,8 @@ class Poblacion:
             self.abejas.append(abeja)
 
         self.threadAbejas()
-        # for flor in self.flores:
-        #     w.paint(flor.pos[0], flor.pos[1], flor.polen)
-        # w.window.mainloop()
 
-    def generacion(self, segundos, qp):
-        # w = Window()
+    def generacion(self, segundos, qp, gens):
         print("\n\nGeneración ", self.countGeneracion)
 
         self.floresGeneraciones.append(self.flores)
@@ -123,10 +121,6 @@ class Poblacion:
             newflor = Flor(self.numFlores ,pos, polen)
             auxFlores.append(newflor)
 
-            self.drawNewFlower(qp, newflor) # Pinta la flor en la ventana
-            # hilo = threading.Thread(target=self.drawNewFlower, args=(qp, newflor,))
-            # hilo.start()
-
         # Nuevas Abejas
         for abeja in self.abejas:
             abeja.SeleccionAbeja()
@@ -136,8 +130,8 @@ class Poblacion:
 
         # Algoritmo Genetico
         auxAbejas = []
-        for i in range(0, len(self.abejas)-1, 2):
-            a1, a2 = self.cruceAbeja(self.abejas[i], self.abejas[i+1])
+        for i in range(0, len(sortedAbejas)-1, 2):
+            a1, a2 = self.cruceAbeja(sortedAbejas[i], sortedAbejas[i+1])
             auxAbejas.append(a1)
             auxAbejas.append(a2)
 
@@ -146,10 +140,10 @@ class Poblacion:
         self.grafoBusqueda()
 
         self.threadAbejas()
-        # for flor in self.flores:
-        #     w.paint(flor.pos[0], flor.pos[1], flor.polen)
-        # w.window.mainloop()
 
+        if self.parada == gens:
+            self.floresGeneraciones.append(self.flores)
+            self.abejasGeneraciones.append(self.abejas)
 
     # Algoritmo Genético
     def cruceAbeja(self, a1, a2):
@@ -473,6 +467,11 @@ class Poblacion:
         f = open('GeneracionesFlores.txt', 'a')
         f.write(text)
         f.close()
+
+    def drawFlowers(self, generacion):
+        qp = QPainter(self.ventana.pixmap())
+        for flor in self.floresGeneraciones[generacion]:
+            self.drawNewFlower(qp, flor)
 
 # def contar(self, segundos):
 #     contador = 0

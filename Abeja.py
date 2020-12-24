@@ -96,6 +96,9 @@ class Abeja:
 
     def SeleccionAbeja(self):
         temp = self.distanciaTotal
+        if temp == 0:
+            self.puntaje = 1
+            return self.puntaje
         while temp > 11:
             temp = temp/10
         self.puntaje = self.puntaje // temp
